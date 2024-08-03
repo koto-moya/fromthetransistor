@@ -44,10 +44,10 @@ The combination of these materials can be achieved a few different ways but is g
                                             Forward Biased PN Junction
                                                      Junction
                                          ________________|________________
-                                        | P 0  0  0  0  -|+  -  -  -  - N |
-                                        |   0  0  0  0  -|+  -  -  -  -   |
-                                  ------|   0  0  0  0  -|+  -  -  -  -   |-------
-                                  |     |   0  0  0  0  -|+  -  -  -  -   |      |
+                                        | P +  +  +  +  -|+  -  -  -  - N |
+                                        |   +  +  +  +  -|+  -  -  -  -   |
+                                  ------|   +  +  +  +  -|+  -  -  -  -   |-------
+                                  |     |   +  +  +  +  -|+  -  -  -  -   |      |
                                   |     -----------------------------------      |
                                   |                    |v_fb|                    |    Where v_fb < v
                                   |               Depletion Region               |
@@ -64,10 +64,10 @@ A Reverse biased Junction looks something like this:
                                             Reverse Biased PN Junction
                                                      Junction
                                          ________________|________________
-                                        | P 0  0  0  - - | + +  -  -  - N |
-                                        |   0  0  0  - - | + +  -  -  -   |
-                                  ------|   0  0  0  - - | + +  -  -  -   |-------
-                                  |     |   0  0  0  - - | + +  -  -  -   |      |
+                                        | P +  +  +  - - | + +  -  -  - N |
+                                        |   +  +  +  - - | + +  -  -  -   |
+                                  ------|   +  +  +  - - | + +  -  -  -   |-------
+                                  |     |   +  +  +  - - | + +  -  -  -   |      |
                                   |     -----------------------------------      |
                                   |                  |--v_rb--|                  |    Where v_rb > v
                                   |               Depletion Region               |
@@ -202,4 +202,6 @@ To summarize, transistors can be orchestrated to produce behavior analogous to t
 If we were living on the Trisolaran planet transistors and the idea of logic gates is really all we would need to build a computer.  Of course we live in the human world and time is not really of the essence (although this is changing) we can take a bit more time to develop more sophisticated ways of orchestrating transistors.  This is where Integrated Circuits come in.  
 
 An Integrated Circuit is just a collection of transistors operating to perform logical task usually etched into silicon.  This frees us form using transistors as discrete components, allowing us to climb up the ladder of abstraction yet again.  At first ICs were very simple and only contained on the order of 10s of transistors. Fast forward to today and we have 1x1 cm chips with 10s of billions of transistors sitting in our pocket.  It should be noted that ICs also contain other electrical components such as resistors and capacitors but that's neither here nor there.  
+
+
 
