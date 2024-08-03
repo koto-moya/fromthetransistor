@@ -28,6 +28,7 @@ Transistors can function as an amplifier or a switch depending on how it is used
 ### Lesson 1.2.1: PN Junctions
 
 N-type materials are semiconductors doped with acceptor impurities, elements that have 1 vacancy in their valance shell.  P-type materials are semiconductors doped with donor impurities.  Combining P and N-type materials results in a depletion zone between the two material types (illustrated below)
+
                                                        Junction
                                          _________________|_________________
                                         | P +  +  +  +  - | +  -  -  -  - N |
