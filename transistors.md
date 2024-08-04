@@ -6,7 +6,8 @@
 Resources: 
 
 - Implementing concepts in verilog: https://www.youtube.com/watch?v=lLg1AgA2Xoo&list=PLEBQazB0HUyT1WmMONxRZn9NmQ_9CIKhb
-
+- FPGA Architecture White Paper Altera Corp: https://www.altera.com/content/dam/altera-www/global/en_US/pdfs/literature/wp/wp-01003.pdf
+- LUT Info: https://www.allaboutcircuits.com/textbook/digital/chpt-16/look-up-tables/
 
 ## Lesson 1.1: Top Down: What's a FPGA?
 
@@ -202,6 +203,31 @@ To summarize, transistors can be orchestrated to produce behavior analogous to t
 If we were living on the Trisolaran planet transistors and the idea of logic gates is really all we would need to build a computer.  Of course we live in the human world and time is not really of the essence (although this is changing) we can take a bit more time to develop more sophisticated ways of orchestrating transistors.  This is where Integrated Circuits come in.  
 
 An Integrated Circuit is just a collection of transistors operating to perform logical task usually etched into silicon.  This frees us form using transistors as discrete components, allowing us to climb up the ladder of abstraction yet again.  At first ICs were very simple and only contained on the order of 10s of transistors. Fast forward to today and we have 1x1 cm chips with 10s of billions of transistors sitting in our pocket.  It should be noted that ICs also contain other electrical components such as resistors and capacitors but that's neither here nor there.  
+
+We now have what we need to build up a FPGA.  The process would be as follows: orchestrate logical gates (made from transistors) to perform task within a logic cell -> connect the cells with a data bus and control bus? -> Hook up IO and create a memory unit for storing the boot procedures.  This is a rough outline of how one could build an FPGA using transistors which I'm sure will be amended as I move through the course. 
+
+### Lesson 1.2.6: Abstraction, Abstraction, Abstraction
+
+By now you should notice that these logical ops have predictable outputs which makes calculating them over and over wasteful in terms of compute.  This is where LUTs come in.  Rather than having logic cells calculate the output value of their respectiove truth tables LUTs stores the output values in a map like structure (actually not sure about this) where their corresponding inputs are the keys to the map.  This allows the processor to complete these logic gate "calculations" in O(1) time.  In practice LUTs are implemented as NxM bit RAM that can be overwritten by the programmer.  This is what gives FPGAs their power.
+
+I now realize that the bridge from logic and the physical starts at the switch.  Of course, a switch can be made of really any physical gating process, people have made computers out of water, pipes and valves, what gives the transistor the advantage is the ability to scale it down.  A water based computer would be far too large even with the use of microfluidics.  Quite literaly, the transistor (really the Buffer) is the physical analog of the logcal bit of information.  This fact alone is what allows for large scale compute to happen. 
+
+### Lesson 1.2.7: Logic cells from First Principles
+
+The contents of a logic cell are as follows: 1 LUT (functionally but can be split into a few in the actual implementation details), a D flip-flop and a 2-to-1 mux (for bypassing the flip-flop).  We'll start with the LUTs. 
+
+#### Lesson 1.2.7.a: LUTs
+
+Typically built out of SRAM bits to hold the config memory (LUT-mask, CRAM) and a set of multiplexers for selecting the corresponding bit of CRAM.  for an n-input LUT (i.e. a LUT that can implement any function of n inputs) exactly 2^n SRAM bits are needed and in order to get 1 ouput you need a 2^n:1 multiplexer ratio (usually achieved by cascading mux)  The config is specified by the user. Say you wanted to setup a 4-bit adder; this adder would have 8 input ports and 4 output ports but would require 256 addressable SRAM locations (2^4*2^4).  The SRAM locations would have to hand coded by you, the programmer (of course this could be automated to some degree).  Mistakes in the lookup table will produce incorrect sums, keep GPT well away form this process lol.  
+
+#### Lesson 1.2.7.b: D Flip-Flop
+
+
+
+## Lesson 1.3: Summary
+
+Okay, so let's get a lay of land so far.  We understand that transistors are the physical analog of the logical bit.  Combining these transistors in certain ways produces logic gates (AND, NOT, OR, Buffer, NAND, NOR, XOR, XNOR), from here we can stop thinking in the physical and do all of our work in the computational landscape.  We combine logic gates to carry out different operations.  An important side note here is that memory still uses transistors (albiet in a more static) fashion to store bits but the same undelying principles still apply.  The combined logcial ops are packeged upo into ICs which could be as simple as an 8 pin logic cell all the way up to the M3 chip.  In the case of FPGAs, they rely on LUTs to stand in for the more fundatmental logic operations which allows for reprogrambility as well as faster computation time.   
+
 
 
 
