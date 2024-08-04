@@ -115,7 +115,7 @@ We don't need to go into the details of how exactly these transistors are put in
 
 Because transistors can act as switches we get to introduce a key concept that will allow us to bootstrap the stack from here.  That concept is abstraction.  We will take a step up the abstraction ladder, removing the need for picturing the actual circuit components and instead visualising these components as logical gates such as NOT, AND, OR, XOR, etc.
 
-First we will cover the NOT gate, the simplest of all logical operations.  Also called the inverter, this gate outputs the opposite value as its input.  This can be seen as the following truth table.
+First we will cover the NOT gate, the (second) simplest of all logical operations.  Also called the inverter, this gate outputs the opposite value as its input.  This can be seen as the following truth table.
 
                       Input   Output
                     |   0   |   1   |
