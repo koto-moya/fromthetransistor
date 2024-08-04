@@ -8,6 +8,7 @@ Resources:
 - Implementing concepts in verilog: https://www.youtube.com/watch?v=lLg1AgA2Xoo&list=PLEBQazB0HUyT1WmMONxRZn9NmQ_9CIKhb
 - FPGA Architecture White Paper Altera Corp: https://www.altera.com/content/dam/altera-www/global/en_US/pdfs/literature/wp/wp-01003.pdf
 - LUT Info: https://www.allaboutcircuits.com/textbook/digital/chpt-16/look-up-tables/
+- fpga4fun: https://www.fpga4fun.com
 
 ## Lesson 1.1: Top Down: What's a FPGA?
 
@@ -222,12 +223,28 @@ Typically built out of SRAM bits to hold the config memory (LUT-mask, CRAM) and 
 
 #### Lesson 1.2.7.b: D Flip-Flop
 
+A D flip-flop is consists of two components: the master and the slave.  The master is a clock edge triggered bi-stable gated data latch and the slave is a normal SR latch.  This setup can be pictured like:
+
+                                    ---D type Flip-Flop---
+
+         D latch (master)       SR latch (slave)                      DFF
+             _______              ________                         ________
+     D------|    Q_m|------------|D   Q_s |---                ----| in  out|----
+            |       |            |        |     Abstraction       |        |
+    clk_____|C      |         ___|C   Q_s`|---      --->      ----|>       |        It should be noted that Q_s is the only read out of the DFF
+        |   |_______|        |   |________|                       |________|
+        |             NOT    |
+        |_____________>o_____|
+
+
+
 
 
 ## Lesson 1.3: Summary
 
-Okay, so let's get a lay of land so far.  We understand that transistors are the physical analog of the logical bit.  Combining these transistors in certain ways produces logic gates (AND, NOT, OR, Buffer, NAND, NOR, XOR, XNOR), from here we can stop thinking in the physical and do all of our work in the computational landscape.  We combine logic gates to carry out different operations.  An important side note here is that memory still uses transistors (albiet in a more static) fashion to store bits but the same undelying principles still apply.  The combined logcial ops are packeged upo into ICs which could be as simple as an 8 pin logic cell all the way up to the M3 chip.  In the case of FPGAs, they rely on LUTs to stand in for the more fundatmental logic operations which allows for reprogrambility as well as faster computation time.   
+Okay, so let's get a lay of land so far.  We understand that transistors are the physical analog of the logical bit.  Combining these transistors in certain ways produces logic gates (AND, NOT, OR, Buffer, NAND, NOR, XOR, XNOR), from here we can stop thinking in the physical and do all of our work in the computational landscape.  We combine logic gates to carry out different operations.  An important side note here is that memory still uses transistors (albeit in a more static) fashion to store bits but the same underlying principles still apply.  The combined logical ops are packaged up into ICs which could be as simple as an 8 pin logic cell all the way up to the M3 chip.  In the case of FPGAs, they rely on LUTs to stand in for the more fundamental logic operations which allows for re-programmability as well as faster computation time.
 
+What I am most interested in figuring out is if the abstraction ladder will reliability lead up to the fringe of the stack (can we abstract from transistors to python?) 
 
 
 
