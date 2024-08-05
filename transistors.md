@@ -243,22 +243,22 @@ You can think of the d-type flip flop as a single bit memory device.  Q_m change
 #### Lesson 1.2.7.c: Multiplexers
 
 In its most simple form, the MUX is a kind of rotary switch that selects as output any of the n inputs it receives.  It makes this selection by having a selector input that tells the switch "which direction to point".  To get away from analogies we can draw up a simple 2-to-1 Mux from NAND gates.
-                        
-                        ----2-to-1 Mux----
+
+                                                        ----2-to-1 Mux----
                                                                                             | A |I_1|I_0|| Q |
                                ____                                                         ------------------
-        I_0-------------------|    |                                                        | 0 | 0 | 0 || 0 |
-             A _______________|NAND|o---------------+                                       | 0 | 0 | 1 || 0 |
-              |         ____  |____|                |      ____                             | 0 | 1 | 0 || 1 |
-              |    ____|    |                       |     |    |        Truth Table         | 0 | 1 | 1 || 1 |
-        A-----+---+____|NAND|o---+ A`               +-----|NAND|o---Q   ---------->         | 1 | 0 | 0 || 0 |
-                       |____|    |                  +-----|____|                            | 1 | 0 | 1 || 1 |
+        I_0-------------------|    |                                                        | 0 | 0 | 0 || 0 |                         A
+              A_______________|NAND|o---------------+                                       | 0 | 0 | 1 || 0 |                         |
+              |         ____  |____|                |      ____                             | 0 | 1 | 0 || 1 |                        |\
+              |    ____|    |                       |     |    |           Truth Table      | 0 | 1 | 1 || 1 |   Abstraction    I_0---|0|----Q
+        A-----+---+____|NAND|o---+ A`               +-----|NAND|o---Q      ---------->      | 1 | 0 | 0 || 0 |    --------->    I_1---|1|
+                       |____|    |                  +-----|____|                            | 1 | 0 | 1 || 1 |                        |/
                                  |      ____        |                                       | 1 | 1 | 0 || 0 |
                                  |_____|    |       |                                       | 1 | 1 | 1 || 1 |
         I_1----------------------------|NAND|o------+
                                        |____|
 
-
+We can see from the truth table that the selector A chooses which Input is reflected in the output.  When A is 0, I_1 is selected.  When A is 1, I_0 is selected.  Scaling this would require n/2 selectors where n is the number of input lines.
 
 ## Lesson 1.3: Summary
 
