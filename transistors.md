@@ -238,7 +238,26 @@ A D flip-flop is consists of two components: the master and the slave.  The mast
         |_____________>o_____________|
 
 
-You can think of the d-type flip flop as a single bit memory device.  Q_m changes only when the clock cycle hits a rising edge.  In the case of a rising edge, Q_m takes on whatever value D is in that moment.  One can see that just given the master portion of the DFF would produce "glitches"; while they are not actual glitches (the circuit is behaving exactly as intended) the behavior is not desirable from a reliability standpoint.  This is where the slave portion comes in.  The slave portion is triggered by the inverse of the clock cycle (NOT Gate), therefore Q_s only changes on descending edges.  On a descending edge Q_s takes on the Q_m value.  If Q_m changes to a new value and then changes back to the old value before the descending edge Q_s will not reflect that change.  This can best be seen as 4 parallel graphs showing the values for D (input), C (Clock), Q_m (master out), Q_s (slave out) over time.  
+You can think of the d-type flip flop as a single bit memory device.  Q_m changes only when the clock cycle hits a rising edge.  In the case of a rising edge, Q_m takes on whatever value D is in that moment.  One can see that just given the master portion of the DFF would produce "glitches"; while they are not actual glitches (the circuit is behaving exactly as intended) the behavior is not desirable from a reliability standpoint.  This is where the slave portion comes in.  The slave portion is triggered by the inverse of the clock cycle (NOT Gate), therefore Q_s only changes on descending edges.  On a descending edge Q_s takes on the Q_m value.  If Q_m changes to a new value and then changes back to the old value before the descending edge Q_s will not reflect that change.  This can best be seen as 4 parallel graphs showing the values for D (input), C (Clock), Q_m (master out), Q_s (slave out) over time.  I am for sure not drawing those graphs in ASCII so you'll just have to imagine it. 
+
+#### Lesson 1.2.7.c: Multiplexers
+
+In its most simple form, the MUX is a kind of rotary switch that selects as output any of the n inputs it receives.  It makes this selection by having a selector input that tells the switch "which direction to point".  To get away from analogies we can draw up a simple 2-to-1 Mux from NAND gates.
+                        
+                        ----2-to-1 Mux----
+                                                                                            | A |I_1|I_0|| Q |
+                               ____                                                         ------------------
+        I_0-------------------|    |                                                        | 0 | 0 | 0 || 0 |
+             A _______________|NAND|o---------------+                                       | 0 | 0 | 1 || 0 |
+              |         ____  |____|                |      ____                             | 0 | 1 | 0 || 1 |
+              |    ____|    |                       |     |    |        Truth Table         | 0 | 1 | 1 || 1 |
+        A-----+---+____|NAND|o---+ A`               +-----|NAND|o---Q   ---------->         | 1 | 0 | 0 || 0 |
+                       |____|    |                  +-----|____|                            | 1 | 0 | 1 || 1 |
+                                 |      ____        |                                       | 1 | 1 | 0 || 0 |
+                                 |_____|    |       |                                       | 1 | 1 | 1 || 1 |
+        I_1----------------------------|NAND|o------+
+                                       |____|
+
 
 
 ## Lesson 1.3: Summary
