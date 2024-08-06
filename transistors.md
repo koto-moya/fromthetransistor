@@ -262,9 +262,4 @@ We can see from the truth table that the selector A chooses which Input is refle
 
 ## Lesson 1.3: Summary
 
-Okay, so let's get a lay of land so far.  We understand that transistors are the physical analog of the logical bit.  Combining these transistors in certain ways produces logic gates (AND, NOT, OR, Buffer, NAND, NOR, XOR, XNOR), from here we can stop thinking in the physical and do all of our work in the computational landscape.  We combine logic gates to carry out different operations.  An important side note here is that memory still uses transistors (albeit in a more static) fashion to store bits but the same underlying principles still apply.  The combined logical ops are packaged up into ICs which could be as simple as an 8 pin logic cell all the way up to the M3 chip.  In the case of FPGAs, they rely on LUTs to stand in for the more fundamental logic operations which allows for re-programmability as well as faster computation time.
-
-What I am most interested in figuring out is if the abstraction ladder will reliability lead up to the fringe of the stack (can we abstract from transistors to python?) 
-
-
-
+Transistors are the practical application of PN junctions.  Sandwich two diodes together and you have a transistor.  Quite literally, the transistor is a physical manifestation of the gate.  The structured combination of transistors produces the logic gates AND, NOT, Buffer, OR, XOR, XNOR, NAND, and NOR.  With these gates one can implement any computable function (even simulate non-computable functions).  This allows us to trascend the physical realm and speak about computation with abstractions.  These abstractions carry up the stack from transistors to logical ops to MUXs/LUTs/D-type flip-flops to logic cells to FPGAs/CPUs/etc..  Given these foundations, traversing the hardware stack is relatively straightforward.  I'm excited to see how far this abstraction ladder will carry us.  
