@@ -2,6 +2,7 @@
 - So about those transistors -- Course overview. Describe how FPGAs are buildable using transistors, and that ICs are just collections of transistors in a nice reliable package. Understand the LUTs and stuff. Talk briefly about the theory of transistors, but all projects must build on each other so we can’t build one.
 - Emulation -- Building on real hardware limits the reach of this course. Using something like Verilator will allow anyone with a computer to play.
 
+Student Notes: I started a little lower in the stack to tie into my own knowledge tree.  Since mine is rooted in physics, I thought I would start with something I was already familiar with (PN junctions) and work my way upp form there.  
 
 Resources: 
 

@@ -1,0 +1,1166 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt"
+    message: |
+      The system is: Darwin - 23.2.0 - arm64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /Library/Developer/CommandLineTools/usr/bin/cc 
+      Build flags: -I/opt/flex/flex-2.6.4/include;-I/opt/bison/bison-3.7.91/share/include;-I/opt/flex/flex-2.6.4/include;-I/opt/bison/bison-3.7.91/share/include;-I/opt/flex/flex-2.6.4/include;-I/opt/bison/bison-3.7.91/share/include;-I/opt/flex/flex-2.6.4/include;-I/opt/bison/bison-3.7.91/share/include;-I/opt/flex/flex-2.6.4/include;-I/opt/bison/bison-3.7.91/share/include
+      Id flags:  
+      
+      The output was:
+      1
+      ld: library 'System' not found
+      clang: error: linker command failed with exit code 1 (use -v to see invocation)
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /Library/Developer/CommandLineTools/usr/bin/cc 
+      Build flags: -I/opt/flex/flex-2.6.4/include;-I/opt/bison/bison-3.7.91/share/include;-I/opt/flex/flex-2.6.4/include;-I/opt/bison/bison-3.7.91/share/include;-I/opt/flex/flex-2.6.4/include;-I/opt/bison/bison-3.7.91/share/include;-I/opt/flex/flex-2.6.4/include;-I/opt/bison/bison-3.7.91/share/include;-I/opt/flex/flex-2.6.4/include;-I/opt/bison/bison-3.7.91/share/include
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+      
+      The C compiler identification is AppleClang, found in:
+        /Users/koto/build/FromtheTransistor/s2/build/CMakeFiles/3.30.2/CompilerIdC/CMakeCCompilerId.o
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /Library/Developer/CommandLineTools/usr/bin/c++ 
+      Build flags: -I/opt/flex/flex-2.6.4/include;-I/opt/bison/bison-3.7.91/share/include;-I/opt/flex/flex-2.6.4/include;-I/opt/bison/bison-3.7.91/share/include;-I/opt/flex/flex-2.6.4/include;-I/opt/bison/bison-3.7.91/share/include;-I/opt/flex/flex-2.6.4/include;-I/opt/bison/bison-3.7.91/share/include;-I/opt/flex/flex-2.6.4/include;-I/opt/bison/bison-3.7.91/share/include
+      Id flags:  
+      
+      The output was:
+      1
+      ld: library 'c++' not found
+      clang: error: linker command failed with exit code 1 (use -v to see invocation)
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /Library/Developer/CommandLineTools/usr/bin/c++ 
+      Build flags: -I/opt/flex/flex-2.6.4/include;-I/opt/bison/bison-3.7.91/share/include;-I/opt/flex/flex-2.6.4/include;-I/opt/bison/bison-3.7.91/share/include;-I/opt/flex/flex-2.6.4/include;-I/opt/bison/bison-3.7.91/share/include;-I/opt/flex/flex-2.6.4/include;-I/opt/bison/bison-3.7.91/share/include;-I/opt/flex/flex-2.6.4/include;-I/opt/bison/bison-3.7.91/share/include
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+      
+      The CXX compiler identification is AppleClang, found in:
+        /Users/koto/build/FromtheTransistor/s2/build/CMakeFiles/3.30.2/CompilerIdCXX/CMakeCXXCompilerId.o
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/Users/koto/build/FromtheTransistor/s2/build/CMakeFiles/CMakeScratch/TryCompile-ziKXOo"
+      binary: "/Users/koto/build/FromtheTransistor/s2/build/CMakeFiles/CMakeScratch/TryCompile-ziKXOo"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/koto/build/FromtheTransistor/s2/build/CMakeFiles/CMakeScratch/TryCompile-ziKXOo'
+        
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_e5973
+        [1/2] /Library/Developer/CommandLineTools/usr/bin/cc   -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk   -v -Wl,-v -MD -MT CMakeFiles/cmTC_e5973.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_e5973.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_e5973.dir/CMakeCCompilerABI.c.o -c /Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeCCompilerABI.c
+        Apple clang version 15.0.0 (clang-1500.1.0.2.5)
+        Target: arm64-apple-darwin23.2.0
+        Thread model: posix
+        InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+        clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx14.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=14.2 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +crc -target-feature +lse -target-feature +rdm -target-feature +crypto -target-feature +dotprod -target-feature +fp-armv8 -target-feature +neon -target-feature +fp16fml -target-feature +ras -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 1022.1 -v -fcoverage-compilation-dir=/Users/koto/build/FromtheTransistor/s2/build/CMakeFiles/CMakeScratch/TryCompile-ziKXOo -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0 -dependency-file CMakeFiles/cmTC_e5973.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_e5973.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -I /opt/flex/flex-2.6.4/include -I /opt/bison/bison-3.7.91/share/include -I /opt/flex/flex-2.6.4/include -I /opt/bison/bison-3.7.91/share/include -I /opt/flex/flex-2.6.4/include -I /opt/bison/bison-3.7.91/share/include -I /opt/flex/flex-2.6.4/include -I /opt/bison/bison-3.7.91/share/include -I /opt/flex/flex-2.6.4/include -I /opt/bison/bison-3.7.91/share/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdebug-compilation-dir=/Users/koto/build/FromtheTransistor/s2/build/CMakeFiles/CMakeScratch/TryCompile-ziKXOo -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_e5973.dir/CMakeCCompilerABI.c.o -x c /Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeCCompilerABI.c
+        clang -cc1 version 15.0.0 (clang-1500.1.0.2.5) default target arm64-apple-darwin23.2.0
+        ignoring nonexistent directory "/opt/bison/bison-3.7.91/share/include"
+        ignoring nonexistent directory "/opt/bison/bison-3.7.91/share/include"
+        ignoring nonexistent directory "/opt/bison/bison-3.7.91/share/include"
+        ignoring nonexistent directory "/opt/bison/bison-3.7.91/share/include"
+        ignoring nonexistent directory "/opt/bison/bison-3.7.91/share/include"
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/local/include"
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/Library/Frameworks"
+        ignoring duplicate directory "/opt/flex/flex-2.6.4/include"
+        ignoring duplicate directory "/opt/flex/flex-2.6.4/include"
+        ignoring duplicate directory "/opt/flex/flex-2.6.4/include"
+        ignoring duplicate directory "/opt/flex/flex-2.6.4/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /opt/flex/flex-2.6.4/include
+         /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include
+         /Library/Developer/CommandLineTools/usr/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/System/Library/Frameworks (framework directory)
+        End of search list.
+        [2/2] : && /Library/Developer/CommandLineTools/usr/bin/cc -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -v -Wl,-v CMakeFiles/cmTC_e5973.dir/CMakeCCompilerABI.c.o -o cmTC_e5973   && :
+        Apple clang version 15.0.0 (clang-1500.1.0.2.5)
+        Target: arm64-apple-darwin23.2.0
+        Thread model: posix
+        InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+         "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 14.0.0 14.2 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o cmTC_e5973 -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_e5973.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a
+        @(#)PROGRAM:ld  PROJECT:dyld-1022.1
+        BUILD 13:21:42 Nov 10 2023
+        configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h
+        will use ld-classic for: armv6 armv7 armv7s arm64_32 i386 armv6m armv7k armv7m armv7em
+        LTO support using: LLVM version 15.0.0 (static support for 29, runtime is 29)
+        TAPI support using: Apple TAPI version 15.0.0 (tapi-1500.0.12.8)
+        Library search paths:
+        	/opt/flex/flex-2.6.4/lib
+        	/opt/bison/bison-3.7.91/lib
+        	/opt/flex/flex-2.6.4/lib
+        	/opt/bison/bison-3.7.91/lib
+        	/opt/flex/flex-2.6.4/lib
+        	/opt/bison/bison-3.7.91/lib
+        	/opt/flex/flex-2.6.4/lib
+        	/opt/bison/bison-3.7.91/lib
+        	/opt/flex/flex-2.6.4/lib
+        	/opt/bison/bison-3.7.91/lib
+        Framework search paths:
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:113 (message)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    message: |
+      Effective list of requested architectures (possibly empty)  : ""
+      Effective list of architectures found in the ABI info binary: "arm64"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/opt/flex/flex-2.6.4/include]
+          add: [/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include]
+          add: [/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include]
+          add: [/Library/Developer/CommandLineTools/usr/include]
+        end of search list found
+        collapse include dir [/opt/flex/flex-2.6.4/include] ==> [/opt/flex/flex-2.6.4/include]
+        collapse include dir [/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include] ==> [/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include]
+        collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include]
+        collapse include dir [/Library/Developer/CommandLineTools/usr/include] ==> [/Library/Developer/CommandLineTools/usr/include]
+        implicit include dirs: [/opt/flex/flex-2.6.4/include;/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include;/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include;/Library/Developer/CommandLineTools/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/Users/koto/build/FromtheTransistor/s2/build/CMakeFiles/CMakeScratch/TryCompile-ziKXOo']
+        ignore line: []
+        ignore line: [Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_e5973]
+        ignore line: [[1/2] /Library/Developer/CommandLineTools/usr/bin/cc   -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk   -v -Wl -v -MD -MT CMakeFiles/cmTC_e5973.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_e5973.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_e5973.dir/CMakeCCompilerABI.c.o -c /Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeCCompilerABI.c]
+        ignore line: [Apple clang version 15.0.0 (clang-1500.1.0.2.5)]
+        ignore line: [Target: arm64-apple-darwin23.2.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+        ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+        ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx14.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=14.2 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +crc -target-feature +lse -target-feature +rdm -target-feature +crypto -target-feature +dotprod -target-feature +fp-armv8 -target-feature +neon -target-feature +fp16fml -target-feature +ras -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 1022.1 -v -fcoverage-compilation-dir=/Users/koto/build/FromtheTransistor/s2/build/CMakeFiles/CMakeScratch/TryCompile-ziKXOo -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0 -dependency-file CMakeFiles/cmTC_e5973.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_e5973.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -I /opt/flex/flex-2.6.4/include -I /opt/bison/bison-3.7.91/share/include -I /opt/flex/flex-2.6.4/include -I /opt/bison/bison-3.7.91/share/include -I /opt/flex/flex-2.6.4/include -I /opt/bison/bison-3.7.91/share/include -I /opt/flex/flex-2.6.4/include -I /opt/bison/bison-3.7.91/share/include -I /opt/flex/flex-2.6.4/include -I /opt/bison/bison-3.7.91/share/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdebug-compilation-dir=/Users/koto/build/FromtheTransistor/s2/build/CMakeFiles/CMakeScratch/TryCompile-ziKXOo -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_e5973.dir/CMakeCCompilerABI.c.o -x c /Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeCCompilerABI.c]
+        ignore line: [clang -cc1 version 15.0.0 (clang-1500.1.0.2.5) default target arm64-apple-darwin23.2.0]
+        ignore line: [ignoring nonexistent directory "/opt/bison/bison-3.7.91/share/include"]
+        ignore line: [ignoring nonexistent directory "/opt/bison/bison-3.7.91/share/include"]
+        ignore line: [ignoring nonexistent directory "/opt/bison/bison-3.7.91/share/include"]
+        ignore line: [ignoring nonexistent directory "/opt/bison/bison-3.7.91/share/include"]
+        ignore line: [ignoring nonexistent directory "/opt/bison/bison-3.7.91/share/include"]
+        ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/Library/Frameworks"]
+        ignore line: [ignoring duplicate directory "/opt/flex/flex-2.6.4/include"]
+        ignore line: [ignoring duplicate directory "/opt/flex/flex-2.6.4/include"]
+        ignore line: [ignoring duplicate directory "/opt/flex/flex-2.6.4/include"]
+        ignore line: [ignoring duplicate directory "/opt/flex/flex-2.6.4/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /opt/flex/flex-2.6.4/include]
+        ignore line: [ /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include]
+        ignore line: [ /Library/Developer/CommandLineTools/usr/include]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/System/Library/Frameworks (framework directory)]
+        ignore line: [End of search list.]
+        ignore line: [[2/2] : && /Library/Developer/CommandLineTools/usr/bin/cc -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -Wl -search_paths_first -Wl -headerpad_max_install_names -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -v -Wl -v CMakeFiles/cmTC_e5973.dir/CMakeCCompilerABI.c.o -o cmTC_e5973   && :]
+        ignore line: [Apple clang version 15.0.0 (clang-1500.1.0.2.5)]
+        ignore line: [Target: arm64-apple-darwin23.2.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+        link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 14.0.0 14.2 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o cmTC_e5973 -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_e5973.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a]
+          arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
+          arg [-demangle] ==> ignore
+          arg [-lto_library] ==> ignore, skip following value
+          arg [/Library/Developer/CommandLineTools/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+          arg [-dynamic] ==> ignore
+          arg [-arch] ==> ignore
+          arg [arm64] ==> ignore
+          arg [-platform_version] ==> ignore
+          arg [macos] ==> ignore
+          arg [14.0.0] ==> ignore
+          arg [14.2] ==> ignore
+          arg [-syslibroot] ==> ignore
+          arg [/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_e5973] ==> ignore
+          arg [-L/opt/flex/flex-2.6.4/lib] ==> dir [/opt/flex/flex-2.6.4/lib]
+          arg [-L/opt/bison/bison-3.7.91/lib] ==> dir [/opt/bison/bison-3.7.91/lib]
+          arg [-L/opt/flex/flex-2.6.4/lib] ==> dir [/opt/flex/flex-2.6.4/lib]
+          arg [-L/opt/bison/bison-3.7.91/lib] ==> dir [/opt/bison/bison-3.7.91/lib]
+          arg [-L/opt/flex/flex-2.6.4/lib] ==> dir [/opt/flex/flex-2.6.4/lib]
+          arg [-L/opt/bison/bison-3.7.91/lib] ==> dir [/opt/bison/bison-3.7.91/lib]
+          arg [-L/opt/flex/flex-2.6.4/lib] ==> dir [/opt/flex/flex-2.6.4/lib]
+          arg [-L/opt/bison/bison-3.7.91/lib] ==> dir [/opt/bison/bison-3.7.91/lib]
+          arg [-L/opt/flex/flex-2.6.4/lib] ==> dir [/opt/flex/flex-2.6.4/lib]
+          arg [-L/opt/bison/bison-3.7.91/lib] ==> dir [/opt/bison/bison-3.7.91/lib]
+          arg [-search_paths_first] ==> ignore
+          arg [-headerpad_max_install_names] ==> ignore
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_e5973.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lSystem] ==> lib [System]
+          arg [/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a]
+        linker tool for 'C': /Library/Developer/CommandLineTools/usr/bin/ld
+        Library search paths: [;/opt/flex/flex-2.6.4/lib;/opt/bison/bison-3.7.91/lib;/opt/flex/flex-2.6.4/lib;/opt/bison/bison-3.7.91/lib;/opt/flex/flex-2.6.4/lib;/opt/bison/bison-3.7.91/lib;/opt/flex/flex-2.6.4/lib;/opt/bison/bison-3.7.91/lib;/opt/flex/flex-2.6.4/lib;/opt/bison/bison-3.7.91/lib]
+        remove lib [System]
+        remove lib [/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a]
+        collapse library dir [/opt/flex/flex-2.6.4/lib] ==> [/opt/flex/flex-2.6.4/lib]
+        collapse library dir [/opt/bison/bison-3.7.91/lib] ==> [/opt/bison/bison-3.7.91/lib]
+        collapse library dir [/opt/flex/flex-2.6.4/lib] ==> [/opt/flex/flex-2.6.4/lib]
+        collapse library dir [/opt/bison/bison-3.7.91/lib] ==> [/opt/bison/bison-3.7.91/lib]
+        collapse library dir [/opt/flex/flex-2.6.4/lib] ==> [/opt/flex/flex-2.6.4/lib]
+        collapse library dir [/opt/bison/bison-3.7.91/lib] ==> [/opt/bison/bison-3.7.91/lib]
+        collapse library dir [/opt/flex/flex-2.6.4/lib] ==> [/opt/flex/flex-2.6.4/lib]
+        collapse library dir [/opt/bison/bison-3.7.91/lib] ==> [/opt/bison/bison-3.7.91/lib]
+        collapse library dir [/opt/flex/flex-2.6.4/lib] ==> [/opt/flex/flex-2.6.4/lib]
+        collapse library dir [/opt/bison/bison-3.7.91/lib] ==> [/opt/bison/bison-3.7.91/lib]
+        collapse library dir [/opt/flex/flex-2.6.4/lib] ==> [/opt/flex/flex-2.6.4/lib]
+        collapse library dir [/opt/bison/bison-3.7.91/lib] ==> [/opt/bison/bison-3.7.91/lib]
+        collapse library dir [/opt/flex/flex-2.6.4/lib] ==> [/opt/flex/flex-2.6.4/lib]
+        collapse library dir [/opt/bison/bison-3.7.91/lib] ==> [/opt/bison/bison-3.7.91/lib]
+        collapse library dir [/opt/flex/flex-2.6.4/lib] ==> [/opt/flex/flex-2.6.4/lib]
+        collapse library dir [/opt/bison/bison-3.7.91/lib] ==> [/opt/bison/bison-3.7.91/lib]
+        collapse library dir [/opt/flex/flex-2.6.4/lib] ==> [/opt/flex/flex-2.6.4/lib]
+        collapse library dir [/opt/bison/bison-3.7.91/lib] ==> [/opt/bison/bison-3.7.91/lib]
+        collapse library dir [/opt/flex/flex-2.6.4/lib] ==> [/opt/flex/flex-2.6.4/lib]
+        collapse library dir [/opt/bison/bison-3.7.91/lib] ==> [/opt/bison/bison-3.7.91/lib]
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: [/opt/flex/flex-2.6.4/lib;/opt/bison/bison-3.7.91/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    message: |
+      Running the C compiler's linker: "/Library/Developer/CommandLineTools/usr/bin/ld" "-v"
+      @(#)PROGRAM:ld  PROJECT:dyld-1022.1
+      BUILD 13:21:42 Nov 10 2023
+      configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h
+      will use ld-classic for: armv6 armv7 armv7s arm64_32 i386 armv6m armv7k armv7m armv7em
+      LTO support using: LLVM version 15.0.0 (static support for 29, runtime is 29)
+      TAPI support using: Apple TAPI version 15.0.0 (tapi-1500.0.12.8)
+      Library search paths:
+      Framework search paths:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/Users/koto/build/FromtheTransistor/s2/build/CMakeFiles/CMakeScratch/TryCompile-mxrH7g"
+      binary: "/Users/koto/build/FromtheTransistor/s2/build/CMakeFiles/CMakeScratch/TryCompile-mxrH7g"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/koto/build/FromtheTransistor/s2/build/CMakeFiles/CMakeScratch/TryCompile-mxrH7g'
+        
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_fc9a9
+        [1/2] /Library/Developer/CommandLineTools/usr/bin/c++   -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk   -v -Wl,-v -MD -MT CMakeFiles/cmTC_fc9a9.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_fc9a9.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_fc9a9.dir/CMakeCXXCompilerABI.cpp.o -c /Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp
+        Apple clang version 15.0.0 (clang-1500.1.0.2.5)
+        Target: arm64-apple-darwin23.2.0
+        Thread model: posix
+        InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+        clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx14.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=14.2 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +crc -target-feature +lse -target-feature +rdm -target-feature +crypto -target-feature +dotprod -target-feature +fp-armv8 -target-feature +neon -target-feature +fp16fml -target-feature +ras -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 1022.1 -v -fcoverage-compilation-dir=/Users/koto/build/FromtheTransistor/s2/build/CMakeFiles/CMakeScratch/TryCompile-mxrH7g -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0 -dependency-file CMakeFiles/cmTC_fc9a9.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_fc9a9.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -I /opt/flex/flex-2.6.4/include -I /opt/bison/bison-3.7.91/share/include -I /opt/flex/flex-2.6.4/include -I /opt/bison/bison-3.7.91/share/include -I /opt/flex/flex-2.6.4/include -I /opt/bison/bison-3.7.91/share/include -I /opt/flex/flex-2.6.4/include -I /opt/bison/bison-3.7.91/share/include -I /opt/flex/flex-2.6.4/include -I /opt/bison/bison-3.7.91/share/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -fdebug-compilation-dir=/Users/koto/build/FromtheTransistor/s2/build/CMakeFiles/CMakeScratch/TryCompile-mxrH7g -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_fc9a9.dir/CMakeCXXCompilerABI.cpp.o -x c++ /Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp
+        clang -cc1 version 15.0.0 (clang-1500.1.0.2.5) default target arm64-apple-darwin23.2.0
+        ignoring nonexistent directory "/opt/bison/bison-3.7.91/share/include"
+        ignoring nonexistent directory "/opt/bison/bison-3.7.91/share/include"
+        ignoring nonexistent directory "/opt/bison/bison-3.7.91/share/include"
+        ignoring nonexistent directory "/opt/bison/bison-3.7.91/share/include"
+        ignoring nonexistent directory "/opt/bison/bison-3.7.91/share/include"
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/local/include"
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/Library/Frameworks"
+        ignoring duplicate directory "/opt/flex/flex-2.6.4/include"
+        ignoring duplicate directory "/opt/flex/flex-2.6.4/include"
+        ignoring duplicate directory "/opt/flex/flex-2.6.4/include"
+        ignoring duplicate directory "/opt/flex/flex-2.6.4/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /opt/flex/flex-2.6.4/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1
+         /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include
+         /Library/Developer/CommandLineTools/usr/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/System/Library/Frameworks (framework directory)
+        End of search list.
+        [2/2] : && /Library/Developer/CommandLineTools/usr/bin/c++ -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -v -Wl,-v CMakeFiles/cmTC_fc9a9.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_fc9a9   && :
+        Apple clang version 15.0.0 (clang-1500.1.0.2.5)
+        Target: arm64-apple-darwin23.2.0
+        Thread model: posix
+        InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+         "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 14.0.0 14.2 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o cmTC_fc9a9 -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_fc9a9.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a
+        @(#)PROGRAM:ld  PROJECT:dyld-1022.1
+        BUILD 13:21:42 Nov 10 2023
+        configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h
+        will use ld-classic for: armv6 armv7 armv7s arm64_32 i386 armv6m armv7k armv7m armv7em
+        LTO support using: LLVM version 15.0.0 (static support for 29, runtime is 29)
+        TAPI support using: Apple TAPI version 15.0.0 (tapi-1500.0.12.8)
+        Library search paths:
+        	/opt/flex/flex-2.6.4/lib
+        	/opt/bison/bison-3.7.91/lib
+        	/opt/flex/flex-2.6.4/lib
+        	/opt/bison/bison-3.7.91/lib
+        	/opt/flex/flex-2.6.4/lib
+        	/opt/bison/bison-3.7.91/lib
+        	/opt/flex/flex-2.6.4/lib
+        	/opt/bison/bison-3.7.91/lib
+        	/opt/flex/flex-2.6.4/lib
+        	/opt/bison/bison-3.7.91/lib
+        Framework search paths:
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:113 (message)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    message: |
+      Effective list of requested architectures (possibly empty)  : ""
+      Effective list of architectures found in the ABI info binary: "arm64"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/opt/flex/flex-2.6.4/include]
+          add: [/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1]
+          add: [/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include]
+          add: [/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include]
+          add: [/Library/Developer/CommandLineTools/usr/include]
+        end of search list found
+        collapse include dir [/opt/flex/flex-2.6.4/include] ==> [/opt/flex/flex-2.6.4/include]
+        collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1]
+        collapse include dir [/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include] ==> [/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include]
+        collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include]
+        collapse include dir [/Library/Developer/CommandLineTools/usr/include] ==> [/Library/Developer/CommandLineTools/usr/include]
+        implicit include dirs: [/opt/flex/flex-2.6.4/include;/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1;/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include;/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include;/Library/Developer/CommandLineTools/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/Users/koto/build/FromtheTransistor/s2/build/CMakeFiles/CMakeScratch/TryCompile-mxrH7g']
+        ignore line: []
+        ignore line: [Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_fc9a9]
+        ignore line: [[1/2] /Library/Developer/CommandLineTools/usr/bin/c++   -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk   -v -Wl -v -MD -MT CMakeFiles/cmTC_fc9a9.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_fc9a9.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_fc9a9.dir/CMakeCXXCompilerABI.cpp.o -c /Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Apple clang version 15.0.0 (clang-1500.1.0.2.5)]
+        ignore line: [Target: arm64-apple-darwin23.2.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+        ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+        ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx14.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=14.2 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +crc -target-feature +lse -target-feature +rdm -target-feature +crypto -target-feature +dotprod -target-feature +fp-armv8 -target-feature +neon -target-feature +fp16fml -target-feature +ras -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 1022.1 -v -fcoverage-compilation-dir=/Users/koto/build/FromtheTransistor/s2/build/CMakeFiles/CMakeScratch/TryCompile-mxrH7g -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0 -dependency-file CMakeFiles/cmTC_fc9a9.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_fc9a9.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -I /opt/flex/flex-2.6.4/include -I /opt/bison/bison-3.7.91/share/include -I /opt/flex/flex-2.6.4/include -I /opt/bison/bison-3.7.91/share/include -I /opt/flex/flex-2.6.4/include -I /opt/bison/bison-3.7.91/share/include -I /opt/flex/flex-2.6.4/include -I /opt/bison/bison-3.7.91/share/include -I /opt/flex/flex-2.6.4/include -I /opt/bison/bison-3.7.91/share/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -fdebug-compilation-dir=/Users/koto/build/FromtheTransistor/s2/build/CMakeFiles/CMakeScratch/TryCompile-mxrH7g -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_fc9a9.dir/CMakeCXXCompilerABI.cpp.o -x c++ /Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang -cc1 version 15.0.0 (clang-1500.1.0.2.5) default target arm64-apple-darwin23.2.0]
+        ignore line: [ignoring nonexistent directory "/opt/bison/bison-3.7.91/share/include"]
+        ignore line: [ignoring nonexistent directory "/opt/bison/bison-3.7.91/share/include"]
+        ignore line: [ignoring nonexistent directory "/opt/bison/bison-3.7.91/share/include"]
+        ignore line: [ignoring nonexistent directory "/opt/bison/bison-3.7.91/share/include"]
+        ignore line: [ignoring nonexistent directory "/opt/bison/bison-3.7.91/share/include"]
+        ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/Library/Frameworks"]
+        ignore line: [ignoring duplicate directory "/opt/flex/flex-2.6.4/include"]
+        ignore line: [ignoring duplicate directory "/opt/flex/flex-2.6.4/include"]
+        ignore line: [ignoring duplicate directory "/opt/flex/flex-2.6.4/include"]
+        ignore line: [ignoring duplicate directory "/opt/flex/flex-2.6.4/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /opt/flex/flex-2.6.4/include]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1]
+        ignore line: [ /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include]
+        ignore line: [ /Library/Developer/CommandLineTools/usr/include]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/System/Library/Frameworks (framework directory)]
+        ignore line: [End of search list.]
+        ignore line: [[2/2] : && /Library/Developer/CommandLineTools/usr/bin/c++ -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -Wl -search_paths_first -Wl -headerpad_max_install_names -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -v -Wl -v CMakeFiles/cmTC_fc9a9.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_fc9a9   && :]
+        ignore line: [Apple clang version 15.0.0 (clang-1500.1.0.2.5)]
+        ignore line: [Target: arm64-apple-darwin23.2.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+        link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 14.0.0 14.2 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o cmTC_fc9a9 -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_fc9a9.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a]
+          arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
+          arg [-demangle] ==> ignore
+          arg [-lto_library] ==> ignore, skip following value
+          arg [/Library/Developer/CommandLineTools/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+          arg [-dynamic] ==> ignore
+          arg [-arch] ==> ignore
+          arg [arm64] ==> ignore
+          arg [-platform_version] ==> ignore
+          arg [macos] ==> ignore
+          arg [14.0.0] ==> ignore
+          arg [14.2] ==> ignore
+          arg [-syslibroot] ==> ignore
+          arg [/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_fc9a9] ==> ignore
+          arg [-L/opt/flex/flex-2.6.4/lib] ==> dir [/opt/flex/flex-2.6.4/lib]
+          arg [-L/opt/bison/bison-3.7.91/lib] ==> dir [/opt/bison/bison-3.7.91/lib]
+          arg [-L/opt/flex/flex-2.6.4/lib] ==> dir [/opt/flex/flex-2.6.4/lib]
+          arg [-L/opt/bison/bison-3.7.91/lib] ==> dir [/opt/bison/bison-3.7.91/lib]
+          arg [-L/opt/flex/flex-2.6.4/lib] ==> dir [/opt/flex/flex-2.6.4/lib]
+          arg [-L/opt/bison/bison-3.7.91/lib] ==> dir [/opt/bison/bison-3.7.91/lib]
+          arg [-L/opt/flex/flex-2.6.4/lib] ==> dir [/opt/flex/flex-2.6.4/lib]
+          arg [-L/opt/bison/bison-3.7.91/lib] ==> dir [/opt/bison/bison-3.7.91/lib]
+          arg [-L/opt/flex/flex-2.6.4/lib] ==> dir [/opt/flex/flex-2.6.4/lib]
+          arg [-L/opt/bison/bison-3.7.91/lib] ==> dir [/opt/bison/bison-3.7.91/lib]
+          arg [-search_paths_first] ==> ignore
+          arg [-headerpad_max_install_names] ==> ignore
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_fc9a9.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lc++] ==> lib [c++]
+          arg [-lSystem] ==> lib [System]
+          arg [/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a]
+        linker tool for 'CXX': /Library/Developer/CommandLineTools/usr/bin/ld
+        Library search paths: [;/opt/flex/flex-2.6.4/lib;/opt/bison/bison-3.7.91/lib;/opt/flex/flex-2.6.4/lib;/opt/bison/bison-3.7.91/lib;/opt/flex/flex-2.6.4/lib;/opt/bison/bison-3.7.91/lib;/opt/flex/flex-2.6.4/lib;/opt/bison/bison-3.7.91/lib;/opt/flex/flex-2.6.4/lib;/opt/bison/bison-3.7.91/lib]
+        remove lib [System]
+        remove lib [/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a]
+        collapse library dir [/opt/flex/flex-2.6.4/lib] ==> [/opt/flex/flex-2.6.4/lib]
+        collapse library dir [/opt/bison/bison-3.7.91/lib] ==> [/opt/bison/bison-3.7.91/lib]
+        collapse library dir [/opt/flex/flex-2.6.4/lib] ==> [/opt/flex/flex-2.6.4/lib]
+        collapse library dir [/opt/bison/bison-3.7.91/lib] ==> [/opt/bison/bison-3.7.91/lib]
+        collapse library dir [/opt/flex/flex-2.6.4/lib] ==> [/opt/flex/flex-2.6.4/lib]
+        collapse library dir [/opt/bison/bison-3.7.91/lib] ==> [/opt/bison/bison-3.7.91/lib]
+        collapse library dir [/opt/flex/flex-2.6.4/lib] ==> [/opt/flex/flex-2.6.4/lib]
+        collapse library dir [/opt/bison/bison-3.7.91/lib] ==> [/opt/bison/bison-3.7.91/lib]
+        collapse library dir [/opt/flex/flex-2.6.4/lib] ==> [/opt/flex/flex-2.6.4/lib]
+        collapse library dir [/opt/bison/bison-3.7.91/lib] ==> [/opt/bison/bison-3.7.91/lib]
+        collapse library dir [/opt/flex/flex-2.6.4/lib] ==> [/opt/flex/flex-2.6.4/lib]
+        collapse library dir [/opt/bison/bison-3.7.91/lib] ==> [/opt/bison/bison-3.7.91/lib]
+        collapse library dir [/opt/flex/flex-2.6.4/lib] ==> [/opt/flex/flex-2.6.4/lib]
+        collapse library dir [/opt/bison/bison-3.7.91/lib] ==> [/opt/bison/bison-3.7.91/lib]
+        collapse library dir [/opt/flex/flex-2.6.4/lib] ==> [/opt/flex/flex-2.6.4/lib]
+        collapse library dir [/opt/bison/bison-3.7.91/lib] ==> [/opt/bison/bison-3.7.91/lib]
+        collapse library dir [/opt/flex/flex-2.6.4/lib] ==> [/opt/flex/flex-2.6.4/lib]
+        collapse library dir [/opt/bison/bison-3.7.91/lib] ==> [/opt/bison/bison-3.7.91/lib]
+        collapse library dir [/opt/flex/flex-2.6.4/lib] ==> [/opt/flex/flex-2.6.4/lib]
+        collapse library dir [/opt/bison/bison-3.7.91/lib] ==> [/opt/bison/bison-3.7.91/lib]
+        implicit libs: [c++]
+        implicit objs: []
+        implicit dirs: [/opt/flex/flex-2.6.4/lib;/opt/bison/bison-3.7.91/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    message: |
+      Running the CXX compiler's linker: "/Library/Developer/CommandLineTools/usr/bin/ld" "-v"
+      @(#)PROGRAM:ld  PROJECT:dyld-1022.1
+      BUILD 13:21:42 Nov 10 2023
+      configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h
+      will use ld-classic for: armv6 armv7 armv7s arm64_32 i386 armv6m armv7k armv7m armv7em
+      LTO support using: LLVM version 15.0.0 (static support for 29, runtime is 29)
+      TAPI support using: Apple TAPI version 15.0.0 (tapi-1500.0.12.8)
+      Library search paths:
+      Framework search paths:
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "/Users/koto/Programming/verilator-v4.224/verilator-config.cmake:65 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:5 (find_package)"
+    checks:
+      - "Performing Test _faligned_new"
+    directories:
+      source: "/Users/koto/build/FromtheTransistor/s2/build/CMakeFiles/CMakeScratch/TryCompile-zeyyEn"
+      binary: "/Users/koto/build/FromtheTransistor/s2/build/CMakeFiles/CMakeScratch/TryCompile-zeyyEn"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk"
+    buildResult:
+      variable: "_faligned_new"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/koto/build/FromtheTransistor/s2/build/CMakeFiles/CMakeScratch/TryCompile-zeyyEn'
+        
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_101fb
+        [1/2] /Library/Developer/CommandLineTools/usr/bin/c++ -D_faligned_new  -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk   -faligned-new -MD -MT CMakeFiles/cmTC_101fb.dir/src.cxx.o -MF CMakeFiles/cmTC_101fb.dir/src.cxx.o.d -o CMakeFiles/cmTC_101fb.dir/src.cxx.o -c /Users/koto/build/FromtheTransistor/s2/build/CMakeFiles/CMakeScratch/TryCompile-zeyyEn/src.cxx
+        [2/2] : && /Library/Developer/CommandLineTools/usr/bin/c++ -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib CMakeFiles/cmTC_101fb.dir/src.cxx.o -o cmTC_101fb   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "/Users/koto/Programming/verilator-v4.224/verilator-config.cmake:65 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:5 (find_package)"
+    checks:
+      - "Performing Test _fbracket_depth_4096"
+    directories:
+      source: "/Users/koto/build/FromtheTransistor/s2/build/CMakeFiles/CMakeScratch/TryCompile-eyFYvK"
+      binary: "/Users/koto/build/FromtheTransistor/s2/build/CMakeFiles/CMakeScratch/TryCompile-eyFYvK"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk"
+    buildResult:
+      variable: "_fbracket_depth_4096"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/koto/build/FromtheTransistor/s2/build/CMakeFiles/CMakeScratch/TryCompile-eyFYvK'
+        
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_61078
+        [1/2] /Library/Developer/CommandLineTools/usr/bin/c++ -D_fbracket_depth_4096  -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk   -fbracket-depth=4096 -MD -MT CMakeFiles/cmTC_61078.dir/src.cxx.o -MF CMakeFiles/cmTC_61078.dir/src.cxx.o.d -o CMakeFiles/cmTC_61078.dir/src.cxx.o -c /Users/koto/build/FromtheTransistor/s2/build/CMakeFiles/CMakeScratch/TryCompile-eyFYvK/src.cxx
+        [2/2] : && /Library/Developer/CommandLineTools/usr/bin/c++ -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib CMakeFiles/cmTC_61078.dir/src.cxx.o -o cmTC_61078   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "/Users/koto/Programming/verilator-v4.224/verilator-config.cmake:65 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:5 (find_package)"
+    checks:
+      - "Performing Test _fcf_protection_none"
+    directories:
+      source: "/Users/koto/build/FromtheTransistor/s2/build/CMakeFiles/CMakeScratch/TryCompile-Gzpt0B"
+      binary: "/Users/koto/build/FromtheTransistor/s2/build/CMakeFiles/CMakeScratch/TryCompile-Gzpt0B"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk"
+    buildResult:
+      variable: "_fcf_protection_none"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/koto/build/FromtheTransistor/s2/build/CMakeFiles/CMakeScratch/TryCompile-Gzpt0B'
+        
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_8c5de
+        [1/2] /Library/Developer/CommandLineTools/usr/bin/c++ -D_fcf_protection_none  -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk   -fcf-protection=none -MD -MT CMakeFiles/cmTC_8c5de.dir/src.cxx.o -MF CMakeFiles/cmTC_8c5de.dir/src.cxx.o.d -o CMakeFiles/cmTC_8c5de.dir/src.cxx.o -c /Users/koto/build/FromtheTransistor/s2/build/CMakeFiles/CMakeScratch/TryCompile-Gzpt0B/src.cxx
+        [2/2] : && /Library/Developer/CommandLineTools/usr/bin/c++ -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib CMakeFiles/cmTC_8c5de.dir/src.cxx.o -o cmTC_8c5de   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "/Users/koto/Programming/verilator-v4.224/verilator-config.cmake:65 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:5 (find_package)"
+    checks:
+      - "Performing Test _mno_cet"
+    directories:
+      source: "/Users/koto/build/FromtheTransistor/s2/build/CMakeFiles/CMakeScratch/TryCompile-uiVU58"
+      binary: "/Users/koto/build/FromtheTransistor/s2/build/CMakeFiles/CMakeScratch/TryCompile-uiVU58"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk"
+    buildResult:
+      variable: "_mno_cet"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/koto/build/FromtheTransistor/s2/build/CMakeFiles/CMakeScratch/TryCompile-uiVU58'
+        
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_2ea37
+        [1/2] /Library/Developer/CommandLineTools/usr/bin/c++ -D_mno_cet  -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk   -mno-cet -MD -MT CMakeFiles/cmTC_2ea37.dir/src.cxx.o -MF CMakeFiles/cmTC_2ea37.dir/src.cxx.o.d -o CMakeFiles/cmTC_2ea37.dir/src.cxx.o -c /Users/koto/build/FromtheTransistor/s2/build/CMakeFiles/CMakeScratch/TryCompile-uiVU58/src.cxx
+        FAILED: CMakeFiles/cmTC_2ea37.dir/src.cxx.o 
+        /Library/Developer/CommandLineTools/usr/bin/c++ -D_mno_cet  -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk   -mno-cet -MD -MT CMakeFiles/cmTC_2ea37.dir/src.cxx.o -MF CMakeFiles/cmTC_2ea37.dir/src.cxx.o.d -o CMakeFiles/cmTC_2ea37.dir/src.cxx.o -c /Users/koto/build/FromtheTransistor/s2/build/CMakeFiles/CMakeScratch/TryCompile-uiVU58/src.cxx
+        clang: error: unknown argument: '-mno-cet'
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "/Users/koto/Programming/verilator-v4.224/verilator-config.cmake:65 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:5 (find_package)"
+    checks:
+      - "Performing Test _Qunused_arguments"
+    directories:
+      source: "/Users/koto/build/FromtheTransistor/s2/build/CMakeFiles/CMakeScratch/TryCompile-N9mW0i"
+      binary: "/Users/koto/build/FromtheTransistor/s2/build/CMakeFiles/CMakeScratch/TryCompile-N9mW0i"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk"
+    buildResult:
+      variable: "_Qunused_arguments"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/koto/build/FromtheTransistor/s2/build/CMakeFiles/CMakeScratch/TryCompile-N9mW0i'
+        
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_517b0
+        [1/2] /Library/Developer/CommandLineTools/usr/bin/c++ -D_Qunused_arguments  -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk   -Qunused-arguments -MD -MT CMakeFiles/cmTC_517b0.dir/src.cxx.o -MF CMakeFiles/cmTC_517b0.dir/src.cxx.o.d -o CMakeFiles/cmTC_517b0.dir/src.cxx.o -c /Users/koto/build/FromtheTransistor/s2/build/CMakeFiles/CMakeScratch/TryCompile-N9mW0i/src.cxx
+        [2/2] : && /Library/Developer/CommandLineTools/usr/bin/c++ -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib CMakeFiles/cmTC_517b0.dir/src.cxx.o -o cmTC_517b0   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "/Users/koto/Programming/verilator-v4.224/verilator-config.cmake:65 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:5 (find_package)"
+    checks:
+      - "Performing Test _Wno_bool_operation"
+    directories:
+      source: "/Users/koto/build/FromtheTransistor/s2/build/CMakeFiles/CMakeScratch/TryCompile-IebmNk"
+      binary: "/Users/koto/build/FromtheTransistor/s2/build/CMakeFiles/CMakeScratch/TryCompile-IebmNk"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk"
+    buildResult:
+      variable: "_Wno_bool_operation"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/koto/build/FromtheTransistor/s2/build/CMakeFiles/CMakeScratch/TryCompile-IebmNk'
+        
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_5479b
+        [1/2] /Library/Developer/CommandLineTools/usr/bin/c++ -D_Wno_bool_operation  -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk   -Wno-bool-operation -MD -MT CMakeFiles/cmTC_5479b.dir/src.cxx.o -MF CMakeFiles/cmTC_5479b.dir/src.cxx.o.d -o CMakeFiles/cmTC_5479b.dir/src.cxx.o -c /Users/koto/build/FromtheTransistor/s2/build/CMakeFiles/CMakeScratch/TryCompile-IebmNk/src.cxx
+        [2/2] : && /Library/Developer/CommandLineTools/usr/bin/c++ -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib CMakeFiles/cmTC_5479b.dir/src.cxx.o -o cmTC_5479b   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "/Users/koto/Programming/verilator-v4.224/verilator-config.cmake:65 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:5 (find_package)"
+    checks:
+      - "Performing Test _Wno_tautological_bitwise_compare"
+    directories:
+      source: "/Users/koto/build/FromtheTransistor/s2/build/CMakeFiles/CMakeScratch/TryCompile-wUq32S"
+      binary: "/Users/koto/build/FromtheTransistor/s2/build/CMakeFiles/CMakeScratch/TryCompile-wUq32S"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk"
+    buildResult:
+      variable: "_Wno_tautological_bitwise_compare"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/koto/build/FromtheTransistor/s2/build/CMakeFiles/CMakeScratch/TryCompile-wUq32S'
+        
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_55637
+        [1/2] /Library/Developer/CommandLineTools/usr/bin/c++ -D_Wno_tautological_bitwise_compare  -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk   -Wno-tautological-bitwise-compare -MD -MT CMakeFiles/cmTC_55637.dir/src.cxx.o -MF CMakeFiles/cmTC_55637.dir/src.cxx.o.d -o CMakeFiles/cmTC_55637.dir/src.cxx.o -c /Users/koto/build/FromtheTransistor/s2/build/CMakeFiles/CMakeScratch/TryCompile-wUq32S/src.cxx
+        [2/2] : && /Library/Developer/CommandLineTools/usr/bin/c++ -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib CMakeFiles/cmTC_55637.dir/src.cxx.o -o cmTC_55637   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "/Users/koto/Programming/verilator-v4.224/verilator-config.cmake:65 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:5 (find_package)"
+    checks:
+      - "Performing Test _Wno_parentheses_equality"
+    directories:
+      source: "/Users/koto/build/FromtheTransistor/s2/build/CMakeFiles/CMakeScratch/TryCompile-W2nJA0"
+      binary: "/Users/koto/build/FromtheTransistor/s2/build/CMakeFiles/CMakeScratch/TryCompile-W2nJA0"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk"
+    buildResult:
+      variable: "_Wno_parentheses_equality"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/koto/build/FromtheTransistor/s2/build/CMakeFiles/CMakeScratch/TryCompile-W2nJA0'
+        
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_61c12
+        [1/2] /Library/Developer/CommandLineTools/usr/bin/c++ -D_Wno_parentheses_equality  -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk   -Wno-parentheses-equality -MD -MT CMakeFiles/cmTC_61c12.dir/src.cxx.o -MF CMakeFiles/cmTC_61c12.dir/src.cxx.o.d -o CMakeFiles/cmTC_61c12.dir/src.cxx.o -c /Users/koto/build/FromtheTransistor/s2/build/CMakeFiles/CMakeScratch/TryCompile-W2nJA0/src.cxx
+        [2/2] : && /Library/Developer/CommandLineTools/usr/bin/c++ -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib CMakeFiles/cmTC_61c12.dir/src.cxx.o -o cmTC_61c12   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "/Users/koto/Programming/verilator-v4.224/verilator-config.cmake:65 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:5 (find_package)"
+    checks:
+      - "Performing Test _Wno_sign_compare"
+    directories:
+      source: "/Users/koto/build/FromtheTransistor/s2/build/CMakeFiles/CMakeScratch/TryCompile-WlWCG9"
+      binary: "/Users/koto/build/FromtheTransistor/s2/build/CMakeFiles/CMakeScratch/TryCompile-WlWCG9"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk"
+    buildResult:
+      variable: "_Wno_sign_compare"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/koto/build/FromtheTransistor/s2/build/CMakeFiles/CMakeScratch/TryCompile-WlWCG9'
+        
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_09d76
+        [1/2] /Library/Developer/CommandLineTools/usr/bin/c++ -D_Wno_sign_compare  -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk   -Wno-sign-compare -MD -MT CMakeFiles/cmTC_09d76.dir/src.cxx.o -MF CMakeFiles/cmTC_09d76.dir/src.cxx.o.d -o CMakeFiles/cmTC_09d76.dir/src.cxx.o -c /Users/koto/build/FromtheTransistor/s2/build/CMakeFiles/CMakeScratch/TryCompile-WlWCG9/src.cxx
+        [2/2] : && /Library/Developer/CommandLineTools/usr/bin/c++ -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib CMakeFiles/cmTC_09d76.dir/src.cxx.o -o cmTC_09d76   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "/Users/koto/Programming/verilator-v4.224/verilator-config.cmake:65 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:5 (find_package)"
+    checks:
+      - "Performing Test _Wno_uninitialized"
+    directories:
+      source: "/Users/koto/build/FromtheTransistor/s2/build/CMakeFiles/CMakeScratch/TryCompile-rzRJ5w"
+      binary: "/Users/koto/build/FromtheTransistor/s2/build/CMakeFiles/CMakeScratch/TryCompile-rzRJ5w"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk"
+    buildResult:
+      variable: "_Wno_uninitialized"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/koto/build/FromtheTransistor/s2/build/CMakeFiles/CMakeScratch/TryCompile-rzRJ5w'
+        
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_9fc20
+        [1/2] /Library/Developer/CommandLineTools/usr/bin/c++ -D_Wno_uninitialized  -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk   -Wno-uninitialized -MD -MT CMakeFiles/cmTC_9fc20.dir/src.cxx.o -MF CMakeFiles/cmTC_9fc20.dir/src.cxx.o.d -o CMakeFiles/cmTC_9fc20.dir/src.cxx.o -c /Users/koto/build/FromtheTransistor/s2/build/CMakeFiles/CMakeScratch/TryCompile-rzRJ5w/src.cxx
+        [2/2] : && /Library/Developer/CommandLineTools/usr/bin/c++ -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib CMakeFiles/cmTC_9fc20.dir/src.cxx.o -o cmTC_9fc20   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "/Users/koto/Programming/verilator-v4.224/verilator-config.cmake:65 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:5 (find_package)"
+    checks:
+      - "Performing Test _Wno_unused_but_set_variable"
+    directories:
+      source: "/Users/koto/build/FromtheTransistor/s2/build/CMakeFiles/CMakeScratch/TryCompile-rhi7Jg"
+      binary: "/Users/koto/build/FromtheTransistor/s2/build/CMakeFiles/CMakeScratch/TryCompile-rhi7Jg"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk"
+    buildResult:
+      variable: "_Wno_unused_but_set_variable"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/koto/build/FromtheTransistor/s2/build/CMakeFiles/CMakeScratch/TryCompile-rhi7Jg'
+        
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_0f794
+        [1/2] /Library/Developer/CommandLineTools/usr/bin/c++ -D_Wno_unused_but_set_variable  -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk   -Wno-unused-but-set-variable -MD -MT CMakeFiles/cmTC_0f794.dir/src.cxx.o -MF CMakeFiles/cmTC_0f794.dir/src.cxx.o.d -o CMakeFiles/cmTC_0f794.dir/src.cxx.o -c /Users/koto/build/FromtheTransistor/s2/build/CMakeFiles/CMakeScratch/TryCompile-rhi7Jg/src.cxx
+        [2/2] : && /Library/Developer/CommandLineTools/usr/bin/c++ -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib CMakeFiles/cmTC_0f794.dir/src.cxx.o -o cmTC_0f794   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "/Users/koto/Programming/verilator-v4.224/verilator-config.cmake:65 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:5 (find_package)"
+    checks:
+      - "Performing Test _Wno_unused_parameter"
+    directories:
+      source: "/Users/koto/build/FromtheTransistor/s2/build/CMakeFiles/CMakeScratch/TryCompile-7dX5KF"
+      binary: "/Users/koto/build/FromtheTransistor/s2/build/CMakeFiles/CMakeScratch/TryCompile-7dX5KF"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk"
+    buildResult:
+      variable: "_Wno_unused_parameter"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/koto/build/FromtheTransistor/s2/build/CMakeFiles/CMakeScratch/TryCompile-7dX5KF'
+        
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_f07c1
+        [1/2] /Library/Developer/CommandLineTools/usr/bin/c++ -D_Wno_unused_parameter  -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk   -Wno-unused-parameter -MD -MT CMakeFiles/cmTC_f07c1.dir/src.cxx.o -MF CMakeFiles/cmTC_f07c1.dir/src.cxx.o.d -o CMakeFiles/cmTC_f07c1.dir/src.cxx.o -c /Users/koto/build/FromtheTransistor/s2/build/CMakeFiles/CMakeScratch/TryCompile-7dX5KF/src.cxx
+        [2/2] : && /Library/Developer/CommandLineTools/usr/bin/c++ -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib CMakeFiles/cmTC_f07c1.dir/src.cxx.o -o cmTC_f07c1   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "/Users/koto/Programming/verilator-v4.224/verilator-config.cmake:65 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:5 (find_package)"
+    checks:
+      - "Performing Test _Wno_unused_variable"
+    directories:
+      source: "/Users/koto/build/FromtheTransistor/s2/build/CMakeFiles/CMakeScratch/TryCompile-1sMScF"
+      binary: "/Users/koto/build/FromtheTransistor/s2/build/CMakeFiles/CMakeScratch/TryCompile-1sMScF"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk"
+    buildResult:
+      variable: "_Wno_unused_variable"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/koto/build/FromtheTransistor/s2/build/CMakeFiles/CMakeScratch/TryCompile-1sMScF'
+        
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_6a481
+        [1/2] /Library/Developer/CommandLineTools/usr/bin/c++ -D_Wno_unused_variable  -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk   -Wno-unused-variable -MD -MT CMakeFiles/cmTC_6a481.dir/src.cxx.o -MF CMakeFiles/cmTC_6a481.dir/src.cxx.o.d -o CMakeFiles/cmTC_6a481.dir/src.cxx.o -c /Users/koto/build/FromtheTransistor/s2/build/CMakeFiles/CMakeScratch/TryCompile-1sMScF/src.cxx
+        [2/2] : && /Library/Developer/CommandLineTools/usr/bin/c++ -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib CMakeFiles/cmTC_6a481.dir/src.cxx.o -o cmTC_6a481   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "/Users/koto/Programming/verilator-v4.224/verilator-config.cmake:65 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:5 (find_package)"
+    checks:
+      - "Performing Test _Wno_shadow"
+    directories:
+      source: "/Users/koto/build/FromtheTransistor/s2/build/CMakeFiles/CMakeScratch/TryCompile-qcv6o5"
+      binary: "/Users/koto/build/FromtheTransistor/s2/build/CMakeFiles/CMakeScratch/TryCompile-qcv6o5"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk"
+    buildResult:
+      variable: "_Wno_shadow"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/koto/build/FromtheTransistor/s2/build/CMakeFiles/CMakeScratch/TryCompile-qcv6o5'
+        
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_c4b03
+        [1/2] /Library/Developer/CommandLineTools/usr/bin/c++ -D_Wno_shadow  -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk   -Wno-shadow -MD -MT CMakeFiles/cmTC_c4b03.dir/src.cxx.o -MF CMakeFiles/cmTC_c4b03.dir/src.cxx.o.d -o CMakeFiles/cmTC_c4b03.dir/src.cxx.o -c /Users/koto/build/FromtheTransistor/s2/build/CMakeFiles/CMakeScratch/TryCompile-qcv6o5/src.cxx
+        [2/2] : && /Library/Developer/CommandLineTools/usr/bin/c++ -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib CMakeFiles/cmTC_c4b03.dir/src.cxx.o -o cmTC_c4b03   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "/Users/koto/Programming/verilator-v4.224/verilator-config.cmake:55 (check_cxx_source_compiles)"
+      - "/Users/koto/Programming/verilator-v4.224/verilator-config.cmake:72 (_verilator_check_cxx_libraries)"
+      - "CMakeLists.txt:5 (find_package)"
+    checks:
+      - "Performing Test _mt"
+    directories:
+      source: "/Users/koto/build/FromtheTransistor/s2/build/CMakeFiles/CMakeScratch/TryCompile-TgLRNg"
+      binary: "/Users/koto/build/FromtheTransistor/s2/build/CMakeFiles/CMakeScratch/TryCompile-TgLRNg"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk"
+    buildResult:
+      variable: "_mt"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/koto/build/FromtheTransistor/s2/build/CMakeFiles/CMakeScratch/TryCompile-TgLRNg'
+        
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_a1309
+        [1/2] /Library/Developer/CommandLineTools/usr/bin/c++ -D_mt  -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -MD -MT CMakeFiles/cmTC_a1309.dir/src.cxx.o -MF CMakeFiles/cmTC_a1309.dir/src.cxx.o.d -o CMakeFiles/cmTC_a1309.dir/src.cxx.o -c /Users/koto/build/FromtheTransistor/s2/build/CMakeFiles/CMakeScratch/TryCompile-TgLRNg/src.cxx
+        [2/2] : && /Library/Developer/CommandLineTools/usr/bin/c++ -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib CMakeFiles/cmTC_a1309.dir/src.cxx.o -o cmTC_a1309  -mt && :
+        FAILED: cmTC_a1309 
+        : && /Library/Developer/CommandLineTools/usr/bin/c++ -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib CMakeFiles/cmTC_a1309.dir/src.cxx.o -o cmTC_a1309  -mt && :
+        clang: error: unknown argument: '-mt'
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "/Users/koto/Programming/verilator-v4.224/verilator-config.cmake:55 (check_cxx_source_compiles)"
+      - "/Users/koto/Programming/verilator-v4.224/verilator-config.cmake:72 (_verilator_check_cxx_libraries)"
+      - "CMakeLists.txt:5 (find_package)"
+    checks:
+      - "Performing Test _pthread"
+    directories:
+      source: "/Users/koto/build/FromtheTransistor/s2/build/CMakeFiles/CMakeScratch/TryCompile-HIVBWm"
+      binary: "/Users/koto/build/FromtheTransistor/s2/build/CMakeFiles/CMakeScratch/TryCompile-HIVBWm"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk"
+    buildResult:
+      variable: "_pthread"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/koto/build/FromtheTransistor/s2/build/CMakeFiles/CMakeScratch/TryCompile-HIVBWm'
+        
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_f1830
+        [1/2] /Library/Developer/CommandLineTools/usr/bin/c++ -D_pthread  -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -MD -MT CMakeFiles/cmTC_f1830.dir/src.cxx.o -MF CMakeFiles/cmTC_f1830.dir/src.cxx.o.d -o CMakeFiles/cmTC_f1830.dir/src.cxx.o -c /Users/koto/build/FromtheTransistor/s2/build/CMakeFiles/CMakeScratch/TryCompile-HIVBWm/src.cxx
+        [2/2] : && /Library/Developer/CommandLineTools/usr/bin/c++ -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib CMakeFiles/cmTC_f1830.dir/src.cxx.o -o cmTC_f1830  -pthread && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "/Users/koto/Programming/verilator-v4.224/verilator-config.cmake:55 (check_cxx_source_compiles)"
+      - "/Users/koto/Programming/verilator-v4.224/verilator-config.cmake:72 (_verilator_check_cxx_libraries)"
+      - "CMakeLists.txt:5 (find_package)"
+    checks:
+      - "Performing Test _lpthread"
+    directories:
+      source: "/Users/koto/build/FromtheTransistor/s2/build/CMakeFiles/CMakeScratch/TryCompile-1lTHvT"
+      binary: "/Users/koto/build/FromtheTransistor/s2/build/CMakeFiles/CMakeScratch/TryCompile-1lTHvT"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk"
+    buildResult:
+      variable: "_lpthread"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/koto/build/FromtheTransistor/s2/build/CMakeFiles/CMakeScratch/TryCompile-1lTHvT'
+        
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_cc391
+        [1/2] /Library/Developer/CommandLineTools/usr/bin/c++ -D_lpthread  -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -MD -MT CMakeFiles/cmTC_cc391.dir/src.cxx.o -MF CMakeFiles/cmTC_cc391.dir/src.cxx.o.d -o CMakeFiles/cmTC_cc391.dir/src.cxx.o -c /Users/koto/build/FromtheTransistor/s2/build/CMakeFiles/CMakeScratch/TryCompile-1lTHvT/src.cxx
+        [2/2] : && /Library/Developer/CommandLineTools/usr/bin/c++ -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib CMakeFiles/cmTC_cc391.dir/src.cxx.o -o cmTC_cc391  -lpthread && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "/Users/koto/Programming/verilator-v4.224/verilator-config.cmake:55 (check_cxx_source_compiles)"
+      - "/Users/koto/Programming/verilator-v4.224/verilator-config.cmake:72 (_verilator_check_cxx_libraries)"
+      - "CMakeLists.txt:5 (find_package)"
+    checks:
+      - "Performing Test _latomic"
+    directories:
+      source: "/Users/koto/build/FromtheTransistor/s2/build/CMakeFiles/CMakeScratch/TryCompile-mHSdl4"
+      binary: "/Users/koto/build/FromtheTransistor/s2/build/CMakeFiles/CMakeScratch/TryCompile-mHSdl4"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk"
+    buildResult:
+      variable: "_latomic"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/koto/build/FromtheTransistor/s2/build/CMakeFiles/CMakeScratch/TryCompile-mHSdl4'
+        
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_df854
+        [1/2] /Library/Developer/CommandLineTools/usr/bin/c++ -D_latomic  -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -MD -MT CMakeFiles/cmTC_df854.dir/src.cxx.o -MF CMakeFiles/cmTC_df854.dir/src.cxx.o.d -o CMakeFiles/cmTC_df854.dir/src.cxx.o -c /Users/koto/build/FromtheTransistor/s2/build/CMakeFiles/CMakeScratch/TryCompile-mHSdl4/src.cxx
+        [2/2] : && /Library/Developer/CommandLineTools/usr/bin/c++ -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib CMakeFiles/cmTC_df854.dir/src.cxx.o -o cmTC_df854  -latomic && :
+        FAILED: cmTC_df854 
+        : && /Library/Developer/CommandLineTools/usr/bin/c++ -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib CMakeFiles/cmTC_df854.dir/src.cxx.o -o cmTC_df854  -latomic && :
+        ld: library 'atomic' not found
+        clang: error: linker command failed with exit code 1 (use -v to see invocation)
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/FindThreads.cmake:99 (CHECK_CXX_SOURCE_COMPILES)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "CMakeLists.txt:9 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "/Users/koto/build/FromtheTransistor/s2/build/CMakeFiles/CMakeScratch/TryCompile-NdIEts"
+      binary: "/Users/koto/build/FromtheTransistor/s2/build/CMakeFiles/CMakeScratch/TryCompile-NdIEts"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/koto/build/FromtheTransistor/s2/build/CMakeFiles/CMakeScratch/TryCompile-NdIEts'
+        
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_f8015
+        [1/2] /Library/Developer/CommandLineTools/usr/bin/c++ -DCMAKE_HAVE_LIBC_PTHREAD  -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -MD -MT CMakeFiles/cmTC_f8015.dir/src.cxx.o -MF CMakeFiles/cmTC_f8015.dir/src.cxx.o.d -o CMakeFiles/cmTC_f8015.dir/src.cxx.o -c /Users/koto/build/FromtheTransistor/s2/build/CMakeFiles/CMakeScratch/TryCompile-NdIEts/src.cxx
+        [2/2] : && /Library/Developer/CommandLineTools/usr/bin/c++ -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib CMakeFiles/cmTC_f8015.dir/src.cxx.o -o cmTC_f8015   && :
+        
+      exitCode: 0
+...

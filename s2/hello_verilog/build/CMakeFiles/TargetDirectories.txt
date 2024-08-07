@@ -1,0 +1,3 @@
+/Users/koto/build/FromtheTransistor/s2/build/CMakeFiles/Vhello_tb.dir
+/Users/koto/build/FromtheTransistor/s2/build/CMakeFiles/edit_cache.dir
+/Users/koto/build/FromtheTransistor/s2/build/CMakeFiles/rebuild_cache.dir
