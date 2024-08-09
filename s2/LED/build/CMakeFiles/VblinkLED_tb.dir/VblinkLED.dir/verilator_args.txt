@@ -1,0 +1,1 @@
+/Users/koto/Programming/verilator-v4.224/bin/verilator_bin;--compiler;clang;--prefix;VblinkLED;--Mdir;/Users/koto/build/FromtheTransistor/s2/LED/build/CMakeFiles/VblinkLED_tb.dir/VblinkLED.dir;--make;cmake;--coverage;--trace;--sc;blinkLED.v

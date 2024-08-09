@@ -36,13 +36,13 @@ set(Vhello_TRACE_FST 0)
 # Global classes, need linked once per executable
 set(Vhello_GLOBAL "${VERILATOR_ROOT}/include/verilated.cpp" "${VERILATOR_ROOT}/include/verilated_cov.cpp" "${VERILATOR_ROOT}/include/verilated_vcd_c.cpp" "${VERILATOR_ROOT}/include/verilated_vcd_sc.cpp")
 # Generated module classes, non-fast-path, compile with low/medium optimization
-set(Vhello_CLASSES_SLOW "/Users/koto/build/FromtheTransistor/s2/build/CMakeFiles/Vhello_tb.dir/Vhello.dir/Vhello___024root__Slow.cpp" "/Users/koto/build/FromtheTransistor/s2/build/CMakeFiles/Vhello_tb.dir/Vhello.dir/Vhello___024root__DepSet_he44dffde__0__Slow.cpp" "/Users/koto/build/FromtheTransistor/s2/build/CMakeFiles/Vhello_tb.dir/Vhello.dir/Vhello___024root__DepSet_hfaf3196b__0__Slow.cpp")
+set(Vhello_CLASSES_SLOW "/Users/koto/build/FromtheTransistor/s2/hello_verilog/build/CMakeFiles/Vhello_tb.dir/Vhello.dir/Vhello___024root__Slow.cpp" "/Users/koto/build/FromtheTransistor/s2/hello_verilog/build/CMakeFiles/Vhello_tb.dir/Vhello.dir/Vhello___024root__DepSet_he44dffde__0__Slow.cpp" "/Users/koto/build/FromtheTransistor/s2/hello_verilog/build/CMakeFiles/Vhello_tb.dir/Vhello.dir/Vhello___024root__DepSet_hfaf3196b__0__Slow.cpp")
 # Generated module classes, fast-path, compile with highest optimization
-set(Vhello_CLASSES_FAST "/Users/koto/build/FromtheTransistor/s2/build/CMakeFiles/Vhello_tb.dir/Vhello.dir/Vhello.cpp" "/Users/koto/build/FromtheTransistor/s2/build/CMakeFiles/Vhello_tb.dir/Vhello.dir/Vhello___024root__DepSet_he44dffde__0.cpp" "/Users/koto/build/FromtheTransistor/s2/build/CMakeFiles/Vhello_tb.dir/Vhello.dir/Vhello___024root__DepSet_hfaf3196b__0.cpp")
+set(Vhello_CLASSES_FAST "/Users/koto/build/FromtheTransistor/s2/hello_verilog/build/CMakeFiles/Vhello_tb.dir/Vhello.dir/Vhello.cpp" "/Users/koto/build/FromtheTransistor/s2/hello_verilog/build/CMakeFiles/Vhello_tb.dir/Vhello.dir/Vhello___024root__DepSet_he44dffde__0.cpp" "/Users/koto/build/FromtheTransistor/s2/hello_verilog/build/CMakeFiles/Vhello_tb.dir/Vhello.dir/Vhello___024root__DepSet_hfaf3196b__0.cpp")
 # Generated support classes, non-fast-path, compile with low/medium optimization
-set(Vhello_SUPPORT_SLOW "/Users/koto/build/FromtheTransistor/s2/build/CMakeFiles/Vhello_tb.dir/Vhello.dir/Vhello__Syms.cpp" "/Users/koto/build/FromtheTransistor/s2/build/CMakeFiles/Vhello_tb.dir/Vhello.dir/Vhello__Trace__0__Slow.cpp")
+set(Vhello_SUPPORT_SLOW "/Users/koto/build/FromtheTransistor/s2/hello_verilog/build/CMakeFiles/Vhello_tb.dir/Vhello.dir/Vhello__Syms.cpp" "/Users/koto/build/FromtheTransistor/s2/hello_verilog/build/CMakeFiles/Vhello_tb.dir/Vhello.dir/Vhello__Trace__0__Slow.cpp")
 # Generated support classes, fast-path, compile with highest optimization
-set(Vhello_SUPPORT_FAST "/Users/koto/build/FromtheTransistor/s2/build/CMakeFiles/Vhello_tb.dir/Vhello.dir/Vhello__Trace__0.cpp")
+set(Vhello_SUPPORT_FAST "/Users/koto/build/FromtheTransistor/s2/hello_verilog/build/CMakeFiles/Vhello_tb.dir/Vhello.dir/Vhello__Trace__0.cpp")
 # All dependencies
 set(Vhello_DEPS "/Users/koto/Programming/verilator-v4.224/bin/verilator_bin" "hello.v")
 # User .cpp files (from .cpp's on Verilator command line)

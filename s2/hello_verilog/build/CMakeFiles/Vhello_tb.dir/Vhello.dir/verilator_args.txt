@@ -1,1 +1,1 @@
-/Users/koto/Programming/verilator-v4.224/bin/verilator_bin;--compiler;clang;--prefix;Vhello;--Mdir;/Users/koto/build/FromtheTransistor/s2/build/CMakeFiles/Vhello_tb.dir/Vhello.dir;--make;cmake;--coverage;--trace;--sc;hello.v
+/Users/koto/Programming/verilator-v4.224/bin/verilator_bin;--compiler;clang;--prefix;Vhello;--Mdir;/Users/koto/build/FromtheTransistor/s2/hello_verilog/build/CMakeFiles/Vhello_tb.dir/Vhello.dir;--make;cmake;--coverage;--trace;--sc;hello.v
