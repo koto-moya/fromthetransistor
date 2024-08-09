@@ -3,7 +3,6 @@ module blinkLED #(
 ) 
 (
     input clk_i,
-    //input[DATA_WIDTH-1:0] pulse
     output[DATA_WIDTH-1:0] LED
 );
     reg[DATA_WIDTH-1:0] data;
