@@ -8,18 +8,14 @@
 
 #include "Vuart.h"
 
-std::string stringToBinary(const std::string& input){
-    std::string binaryString;
+std::vector<uint8_t> stringToBinary(const std::string& input){
+    std::vector<uint8_t> binaryData;
     std::string bits;
-    std::string start = "0";
-    std::string stop = "1";
     for (char c : input){
-        bits = std::bitset<8>(c).to_string();
-        bits.insert(0,start);
-        bits += stop;
-        binaryString += bits + " ";
+        std::bitset<8> bits(c);
+        binaryData.push_back(static_cast<uint8_t>(bits.to_ulong()));
     }
-    return binaryString;
+    return binaryData;
 }
 
 int sc_main(int argc, char** argv){
@@ -33,11 +29,34 @@ int sc_main(int argc, char** argv){
     std::string userInput;
     std::cout << "enter some text";
     std::getline(std::cin, userInput);
-    std::string binaryOutput = stringToBinary(userInput);
-    std::cout << binaryOutput << std::endl;
+    std::vector<uint8_t> binaryData = stringToBinary(userInput);
     
-    sc_clock clk_i("clock",1, SC_NS, 0.5, 0, SC_NS, true)
+    // this defines the baud rate
+    sc_clock clk_i("clock",1, SC_US, 0.5, 0, SC_US, true)
+    
+    // opening a buffer for interacting with the UART device
+    const std::unique_ptr<Vuart> buffer{new Vuart("buffer")}
+    
+    buffer->clk_i(clk_i)
+    buffer->start_i(0)
 
+    sc_start(0, SC_US);
+
+    VerilatedVcdSc* trace = new VerilatedVcdSc();
+
+    buffer->trace(trace, 99);
+
+    if(vcd_file_path.empty()){
+        trace->open("Vuart.vcd");
+    } else {
+        trace->open(vcd_file_path.c_str());
+    }
+
+   for (uint8_t byte : binaryData){
+        buffer->start_i(1)
+        buffer->data_i(std::bitset<8>(byte))
+        buffer->start_i(0)
+    }
 
     return 0;
 }

@@ -3,25 +3,28 @@
 #include <bitset>
 #include <iostream>
 
-std::string stringToBinary(const std::string& input){
-    std::string binaryString;
+std::vector<uint8_t> stringToBinary(const std::string& input){
+    std::vector<uint8_t> binaryData;
     std::string bits;
-    std::string start = "0";
-    std::string stop = "1";
     for (char c : input){
-        bits = std::bitset<8>(c).to_string();
-        bits.insert(0,start);
-        bits += stop;
-        binaryString += bits + " ";
+        std::bitset<8> bits(c);//.to_string();
+        binaryData.push_back(static_cast<uint8_t>(bits.to_ulong()));
     }
-    return binaryString;
+    return binaryData;
 }
 
 int main(){
+
+    // simulating the data bus via user input text
+    
     std::string userInput;
     std::cout << "enter some text";
     std::getline(std::cin, userInput);
-    std::string binaryOutput = stringToBinary(userInput);
-    std::cout << binaryOutput << std::endl;
+    std::vector<uint8_t> binaryData = stringToBinary(userInput);
+    
+    for (uint8_t byte : binaryData){
+        std::cout << std::bitset<8>(byte) << " ";
+    }
+    std::cout << "" << std::endl;
     return 0;
 }
