@@ -1,0 +1,2 @@
+cmake -GNinja ..
+ninja

@@ -34,19 +34,26 @@ The bit stream is usually called a UART packet, or just a packet for simplicity.
         |   (1 bit)   |         (5-9 data bits)      |  (0-1 bit)   | (1-2 bits)|
         |_____________|______________________________|______________|___________|
 
-### Lesson 2.2.1 Start bit
+### Lesson 2.2.1: Start bit
 The start bit is a trigger for the receiver to start reading the bit stream at the set baud rate.  Usually transmission lines are set to a high voltage; when a transmission line is pulled from high to low the receiver detects this change as the start bit and begins reading the data frame.
 
-### Lesson 2.2.2 Data Frame
+### Lesson 2.2.2: Data Frame
 
 This is where the data is stored in the bit stream.  It can be anywhere from 5 bits to 8 bits if a parity bit is being used.  If a parity bit is not used, we can fit 9 bits in the data frame.  The standard is to send the least significant bit first.  
 
-### Lesson 2.2.3 Parity
+### Lesson 2.2.3: Parity
 
 Parity is used to check the integrity of the data being sent.  When the receiving device has read the data frame it will count up all of the 1's and check if there are an even or odd amount of them.  A high parity bit corresponds to an odd number and a low parity corresponds to an even amount.  For our purposes this can be ignored for now.  
 
-### Lesson 2.2.4 Stop Bits
+### Lesson 2.2.4: Stop Bits
 
 Drives the transmission voltage from a low voltage to a high voltage for 1 or 2 bits which tells the receiver device to stop reading.  
 
+## Lesson 2.3: Building the UART
 
+The UARt is actually fairly difficult to implement from scratch.  What I had built was a janky parallel data reader with poor clock management.  I decided to follow the course instructions and copy a UART and try and pull it apart to see what I needed to do.  A big take away when writing the receiver was to think about the system as a state machine.  This allows you to have different behaviors for different states.  I also implemented better clock management which will reduce the chance of errors when reading the bits.  
+
+
+# TODO:
+
+- Implement the receiver in the test bench and check to see it's working
