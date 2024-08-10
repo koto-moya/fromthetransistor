@@ -50,9 +50,11 @@ int sc_main(int argc, char** argv){
         trace->open(vcd_file_path.c_str());
     }
 
-   for (uint8_t byte : binaryData){
+
+    // where the magic happens
+    for (uint8_t byte : binaryData){
         std::cout << "writing to data_i: " << std::bitset<8>(byte) << std::endl;
-       
+   }
 
     buffer->final();
 
