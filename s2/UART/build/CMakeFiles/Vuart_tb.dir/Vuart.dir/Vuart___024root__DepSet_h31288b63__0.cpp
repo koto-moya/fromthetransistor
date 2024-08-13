@@ -8,7 +8,6 @@
 
 void Vuart___024root___combo__TOP__0(Vuart___024root* vlSelf);
 void Vuart___024root___sequent__TOP__0(Vuart___024root* vlSelf);
-void Vuart___024root___combo__TOP__1(Vuart___024root* vlSelf);
 
 void Vuart___024root___eval(Vuart___024root* vlSelf) {
     if (false && vlSelf) {}  // Prevent unused
@@ -16,13 +15,11 @@ void Vuart___024root___eval(Vuart___024root* vlSelf) {
     VL_DEBUG_IF(VL_DBG_MSGF("+    Vuart___024root___eval\n"); );
     // Body
     Vuart___024root___combo__TOP__0(vlSelf);
-    vlSelf->__Vm_traceActivity[1U] = 1U;
     if (((IData)(vlSelf->__Vcellinp__uart__clk_i) & 
          (~ (IData)(vlSelf->__Vclklast__TOP____Vcellinp__uart__clk_i)))) {
         Vuart___024root___sequent__TOP__0(vlSelf);
-        vlSelf->__Vm_traceActivity[2U] = 1U;
+        vlSelf->__Vm_traceActivity[1U] = 1U;
     }
-    Vuart___024root___combo__TOP__1(vlSelf);
     // Final
     vlSelf->__Vclklast__TOP____Vcellinp__uart__clk_i 
         = vlSelf->__Vcellinp__uart__clk_i;

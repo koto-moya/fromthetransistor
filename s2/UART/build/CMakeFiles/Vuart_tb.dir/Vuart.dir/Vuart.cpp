@@ -11,17 +11,15 @@
 Vuart::Vuart(sc_module_name /* unused */)
     : vlSymsp{new Vuart__Syms(nullptr, name(), this)}
     , clk_i{vlSymsp->TOP.clk_i}
-    , start_i{vlSymsp->TOP.start_i}
-    , tx_o{vlSymsp->TOP.tx_o}
-    , data_i{vlSymsp->TOP.data_i}
-    , temp{vlSymsp->TOP.temp}
+    , i_rx_serial{vlSymsp->TOP.i_rx_serial}
+    , o_rx_DV{vlSymsp->TOP.o_rx_DV}
+    , o_rx_Byte{vlSymsp->TOP.o_rx_Byte}
     , rootp{&(vlSymsp->TOP)}
 {
     // Sensitivities on all clocks and combinational inputs
     SC_METHOD(eval);
     sensitive << clk_i;
-    sensitive << start_i;
-    sensitive << data_i;
+    sensitive << i_rx_serial;
 
 }
 

@@ -29,10 +29,9 @@ SC_MODULE(Vuart) {
     // The application code writes and reads these signals to
     // propagate new values into/out from the Verilated model.
     sc_in<bool> &clk_i;
-    sc_in<bool> &start_i;
-    sc_out<bool> &tx_o;
-    sc_in<uint32_t> &data_i;
-    sc_out<uint32_t> &temp;
+    sc_in<bool> &i_rx_serial;
+    sc_out<bool> &o_rx_DV;
+    sc_out<uint32_t> &o_rx_Byte;
 
     // CELLS
     // Public to allow access to /* verilator public */ items.

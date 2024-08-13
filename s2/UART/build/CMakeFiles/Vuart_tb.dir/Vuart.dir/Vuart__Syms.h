@@ -31,7 +31,7 @@ class Vuart__Syms final : public VerilatedSyms {
     Vuart___024root                TOP;
 
     // COVERAGE
-    uint32_t __Vcoverage[109];
+    uint32_t __Vcoverage[53];
 
     // CONSTRUCTORS
     Vuart__Syms(VerilatedContext* contextp, const char* namep, Vuart* modelp);

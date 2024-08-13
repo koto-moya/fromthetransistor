@@ -1,10 +1,10 @@
 module uart 
-   #(parameter CLCKS_PER_BIT = 87)
+   #(parameter CLCKS_PER_BIT = 87) // why did we choose 87?
     (
     input clk_i,
     input i_rx_serial,
     output o_rx_DV,
-    output [7:0], o_rx_Byte   
+    output [7:0] o_rx_Byte   
     );
 
    // these parameters are the states the machine can be in hence the s_ prefix
@@ -12,16 +12,16 @@ module uart
    parameter s_rx_start_bit = 3'b001;
    parameter s_rx_data_bits = 3'b010;
    parameter s_rx_stop_bit = 3'b011;
-   parameter s_cleanup - = 3'b100;
+   parameter s_cleanup = 3'b100;
 
    // these are the registers
    reg r_rx_data_r = 1'b1;
    reg r_rx_data = 1'b1;
-   reg [7:0] r_Clock_count = 0;
-   reg [2:0] r_bit_index = 0;
-   reg [7:0] r_rx_Byte = 0;
-   reg r_rx_DV = 0;
-   reg [2:0] r_SM_Main = 0;
+   reg [7:0] r_Clock_count = 8'b00000000;
+   reg [2:0] r_bit_index = 3'b000;
+   reg [7:0] r_rx_Byte = 8'b00000000;
+   reg r_rx_DV = 1'b0;
+   reg [2:0] r_SM_Main = 3'b000;
 
    // Now we actually start controlling the reciever
 
@@ -29,15 +29,15 @@ module uart
         case (r_SM_Main)
           // this chunk is checking if the start bit has been detected.  
           // If not, keep the machine in an idle state
-          s_idle:
+        s_idle:
             begin
-                 r_rx_DV <= 1'b0;
-                 r_Clock_count <= 0;
-                 r_bit_index <= 0;
-                 if (r_rx_data == 1'b0)
+                r_rx_DV <= 1'b0;
+                r_Clock_count <= 0;
+                r_bit_index <= 0;
+                if (r_rx_data == 1'b0)
                     r_SM_Main <= s_rx_start_bit;
-                 else
-                    r_SM_Main <= s_idle
+                else
+                    r_SM_Main <= s_idle;
             end
 
           // This chunk checks if the start bit has been received.
@@ -48,8 +48,8 @@ module uart
           // unitl we hit the middle of the start bit  
           s_rx_start_bit:
             begin 
-                 if (r_Clock_count == (CLCKS_PER_BIT-1)/2)
-                  begin 
+                if (r_Clock_count == (CLCKS_PER_BIT-1)/2) // ensures that we are in the middle of the bit signal
+                    begin 
                         if (r_rx_data == 1'b0)
                             begin
                                 r_Clock_count <= 0;
@@ -57,12 +57,13 @@ module uart
                             end
                         else
                             r_SM_Main <= s_idle;
-                 else
+                
+                    end
+                else
                     begin
                         r_Clock_count <= r_Clock_count+1;
                         r_SM_Main <= s_rx_start_bit;
                     end
-                  end
             end
 
           //  Once we are in the state of reading the data
@@ -96,9 +97,10 @@ module uart
                             end
                     end 
             end
+
           s_rx_stop_bit:
             begin
-                if (r_Clock_count < CLCKS_PER_BIT-1)
+                if (r_Clock_count < CLCKS_PER_BIT-1) // we've hit the stop bit so wait until the end of the clock count
                     begin
                         r_Clock_count <= r_Clock_count+1;
                         r_SM_Main <= s_rx_stop_bit;
@@ -110,9 +112,10 @@ module uart
                         r_SM_Main <= s_cleanup;
                     end
             end
+
           s_cleanup:
             begin
-                r_SM_Main <= s_idle
+                r_SM_Main <= s_idle;
                 r_rx_DV <= 1'b0;
             end
           

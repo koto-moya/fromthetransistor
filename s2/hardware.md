@@ -53,6 +53,11 @@ Drives the transmission voltage from a low voltage to a high voltage for 1 or 2 
 
 The UARt is actually fairly difficult to implement from scratch.  What I had built was a janky parallel data reader with poor clock management.  I decided to follow the course instructions and copy a UART and try and pull it apart to see what I needed to do.  A big take away when writing the receiver was to think about the system as a state machine.  This allows you to have different behaviors for different states.  I also implemented better clock management which will reduce the chance of errors when reading the bits.  
 
+### Lesson 2.3.1: Verilog learnings
+
+I was listening to a podcast clip of hotz talking about verilog.  He said something that made verilog instantly more understandable.  Verilog actually execute everything at the same time!!! this is why we need states.  On each trigger (posedge in our case) we execute the entire block, having case switching allows us to operate in different modes.  This was huge.  
+
+
 
 # TODO:
 

@@ -12,10 +12,9 @@ void Vuart___024root___ctor_var_reset(Vuart___024root* vlSelf);
 Vuart___024root::Vuart___024root(Vuart__Syms* symsp, const char* name)
     : VerilatedModule{name}
     , clk_i("clk_i")
-    , start_i("start_i")
-    , tx_o("tx_o")
-    , data_i("data_i")
-    , temp("temp")
+    , i_rx_serial("i_rx_serial")
+    , o_rx_DV("o_rx_DV")
+    , o_rx_Byte("o_rx_Byte")
     , vlSymsp{symsp}
  {
     // Reset structure values

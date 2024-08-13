@@ -23,17 +23,19 @@ void Vuart___024root__trace_chg_sub_0(Vuart___024root* vlSelf, VerilatedVcd::Buf
     // Init
     uint32_t* const oldp VL_ATTR_UNUSED = bufp->oldp(vlSymsp->__Vm_baseCode + 1);
     // Body
+    if (VL_UNLIKELY(vlSelf->__Vm_traceActivity[0U])) {
+        bufp->chgBit(oldp+0,(vlSelf->uart__DOT__r_rx_data_r));
+        bufp->chgBit(oldp+1,(vlSelf->uart__DOT__r_rx_data));
+    }
     if (VL_UNLIKELY(vlSelf->__Vm_traceActivity[1U])) {
-        bufp->chgBit(oldp+0,(vlSelf->__Vcellinp__uart__clk_i));
-        bufp->chgBit(oldp+1,(vlSelf->__Vcellinp__uart__start_i));
-        bufp->chgIData(oldp+2,(vlSelf->__Vcellinp__uart__data_i),32);
+        bufp->chgBit(oldp+2,(vlSelf->uart__DOT__r_rx_DV));
+        bufp->chgCData(oldp+3,(vlSelf->uart__DOT__r_rx_Byte),8);
+        bufp->chgCData(oldp+4,(vlSelf->uart__DOT__r_Clock_count),8);
+        bufp->chgCData(oldp+5,(vlSelf->uart__DOT__r_bit_index),3);
+        bufp->chgCData(oldp+6,(vlSelf->uart__DOT__r_SM_Main),3);
     }
-    if (VL_UNLIKELY(vlSelf->__Vm_traceActivity[2U])) {
-        bufp->chgBit(oldp+3,(vlSelf->__Vcellout__uart__tx_o));
-        bufp->chgIData(oldp+4,(vlSelf->__Vcellout__uart__temp),32);
-        bufp->chgQData(oldp+5,(vlSelf->uart__DOT__shift),34);
-        bufp->chgCData(oldp+7,(vlSelf->uart__DOT__bit_count),4);
-    }
+    bufp->chgBit(oldp+7,(vlSelf->__Vcellinp__uart__clk_i));
+    bufp->chgBit(oldp+8,(vlSelf->__Vcellinp__uart__i_rx_serial));
 }
 
 void Vuart___024root__trace_cleanup(void* voidSelf, VerilatedVcd* /*unused*/) {
@@ -45,5 +47,4 @@ void Vuart___024root__trace_cleanup(void* voidSelf, VerilatedVcd* /*unused*/) {
     vlSymsp->__Vm_activity = false;
     vlSymsp->TOP.__Vm_traceActivity[0U] = 0U;
     vlSymsp->TOP.__Vm_traceActivity[1U] = 0U;
-    vlSymsp->TOP.__Vm_traceActivity[2U] = 0U;
 }

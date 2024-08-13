@@ -16,26 +16,29 @@ VL_MODULE(Vuart___024root) {
 
     // DESIGN SPECIFIC STATE
     CData/*0:0*/ __Vcellinp__uart__clk_i;
-    CData/*0:0*/ __Vcellout__uart__tx_o;
-    CData/*0:0*/ __Vcellinp__uart__start_i;
-    CData/*3:0*/ uart__DOT__bit_count;
+    CData/*0:0*/ __Vcellinp__uart__i_rx_serial;
+    CData/*0:0*/ uart__DOT__r_rx_data_r;
+    CData/*0:0*/ uart__DOT__r_rx_data;
+    CData/*7:0*/ uart__DOT__r_Clock_count;
+    CData/*2:0*/ uart__DOT__r_bit_index;
+    CData/*7:0*/ uart__DOT__r_rx_Byte;
+    CData/*0:0*/ uart__DOT__r_rx_DV;
+    CData/*2:0*/ uart__DOT__r_SM_Main;
     CData/*0:0*/ uart__DOT____Vtogcov__clk_i;
-    CData/*0:0*/ uart__DOT____Vtogcov__start_i;
-    CData/*0:0*/ uart__DOT____Vtogcov__tx_o;
-    CData/*3:0*/ uart__DOT____Vtogcov__bit_count;
+    CData/*0:0*/ uart__DOT____Vtogcov__i_rx_serial;
+    CData/*0:0*/ uart__DOT____Vtogcov__o_rx_DV;
+    CData/*7:0*/ uart__DOT____Vtogcov__o_rx_Byte;
+    CData/*0:0*/ uart__DOT____Vtogcov__r_rx_data_r;
+    CData/*0:0*/ uart__DOT____Vtogcov__r_rx_data;
+    CData/*7:0*/ uart__DOT____Vtogcov__r_Clock_count;
+    CData/*2:0*/ uart__DOT____Vtogcov__r_bit_index;
+    CData/*2:0*/ uart__DOT____Vtogcov__r_SM_Main;
     CData/*0:0*/ __Vclklast__TOP____Vcellinp__uart__clk_i;
-    IData/*31:0*/ __Vcellout__uart__temp;
-    IData/*31:0*/ __Vcellinp__uart__data_i;
-    IData/*31:0*/ uart__DOT____Vtogcov__data_i;
-    IData/*31:0*/ uart__DOT____Vtogcov__temp;
-    QData/*33:0*/ uart__DOT__shift;
-    QData/*33:0*/ uart__DOT____Vtogcov__shift;
-    VlUnpacked<CData/*0:0*/, 3> __Vm_traceActivity;
+    VlUnpacked<CData/*0:0*/, 2> __Vm_traceActivity;
     sc_in<bool> clk_i;
-    sc_in<bool> start_i;
-    sc_out<bool> tx_o;
-    sc_in<uint32_t> data_i;
-    sc_out<uint32_t> temp;
+    sc_in<bool> i_rx_serial;
+    sc_out<bool> o_rx_DV;
+    sc_out<uint32_t> o_rx_Byte;
 
     // INTERNAL VARIABLES
     Vuart__Syms* const vlSymsp;

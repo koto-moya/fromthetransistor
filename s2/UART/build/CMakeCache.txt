@@ -28,7 +28,7 @@ CMAKE_BUILD_TYPE:STRING=
 CMAKE_CXX_COMPILER:FILEPATH=/Library/Developer/CommandLineTools/usr/bin/c++
 
 //Flags used by the CXX compiler during all build types.
-CMAKE_CXX_FLAGS:STRING=-I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include
+CMAKE_CXX_FLAGS:STRING=-I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include
 
 //Flags used by the CXX compiler during DEBUG builds.
 CMAKE_CXX_FLAGS_DEBUG:STRING=-g
@@ -46,7 +46,7 @@ CMAKE_CXX_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
 CMAKE_DLLTOOL:FILEPATH=CMAKE_DLLTOOL-NOTFOUND
 
 //Flags used by the linker during all build types.
-CMAKE_EXE_LINKER_FLAGS:STRING=-L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib
+CMAKE_EXE_LINKER_FLAGS:STRING=-L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib
 
 //Flags used by the linker during DEBUG builds.
 CMAKE_EXE_LINKER_FLAGS_DEBUG:STRING=
@@ -80,7 +80,7 @@ CMAKE_MAKE_PROGRAM:FILEPATH=/opt/homebrew/bin/ninja
 
 //Flags used by the linker during the creation of modules during
 // all build types.
-CMAKE_MODULE_LINKER_FLAGS:STRING=-L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib
+CMAKE_MODULE_LINKER_FLAGS:STRING=-L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib
 
 //Flags used by the linker during the creation of modules during
 // DEBUG builds.
@@ -135,7 +135,7 @@ CMAKE_READELF:FILEPATH=CMAKE_READELF-NOTFOUND
 
 //Flags used by the linker during the creation of shared libraries
 // during all build types.
-CMAKE_SHARED_LINKER_FLAGS:STRING=-L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib
+CMAKE_SHARED_LINKER_FLAGS:STRING=-L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib -L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib
 
 //Flags used by the linker during the creation of shared libraries
 // during DEBUG builds.
