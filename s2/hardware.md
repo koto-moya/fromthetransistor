@@ -3,6 +3,10 @@
 - Building a UART(Verilog, 100) -- An intro chapter to Verilog, copy a real UART, introducing the concept of MMIO, though the serial port may be semihosting. Serial test echo progra
 m and led control.
 
+Resources: 
+- https://www.chipverify.com/verilog/verilog-data-types
+
+
 ## Lesson 2.1: How does Verilog work?
 
 
@@ -55,7 +59,13 @@ The UARt is actually fairly difficult to implement from scratch.  What I had bui
 
 ### Lesson 2.3.1: Verilog learnings
 
-I was listening to a podcast clip of hotz talking about verilog.  He said something that made verilog instantly more understandable.  Verilog actually execute everything at the same time!!! this is why we need states.  On each trigger (posedge in our case) we execute the entire block, having case switching allows us to operate in different modes.  This was huge.  
+I was listening to a podcast clip of hotz talking about verilog.  He said something that made verilog instantly more understandable.  Verilog actually execute everything at the same time!!! this is why we need states.  On each trigger (posedge in our case) we execute the entire block, having case switching allows us to operate in different modes.  This was huge.  Another aha moment is learning that you don't need all of this c++ code to run your testbench. I'll be honest, just writing the verilog module alone was daunting enough but now I'm ready lol.  I am going to retry an implementation of the UART but this time write the testbench in verilog as well.  THis will greatly reduce the complexity of the task
+
+
+### Lesson 2.3.1.a: Running a sim
+
+
+once you have written your module you should write a testbench for it.  THe first thing you want to do is to declare your signals.  `intiial` blocks are run at clock = 0 and is usually reserved for setting up the inital conditions of the system.  Once you have defined your inputs and outputs in the test bench you can move on to instantiating the DUT (design under testing).  
 
 
 
