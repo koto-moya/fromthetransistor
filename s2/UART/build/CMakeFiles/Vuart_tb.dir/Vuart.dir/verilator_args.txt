@@ -1,1 +1,0 @@
-/Users/koto/Programming/verilator-v4.224/bin/verilator_bin;--compiler;clang;--prefix;Vuart;--Mdir;/Users/koto/build/FromtheTransistor/s2/UART/build/CMakeFiles/Vuart_tb.dir/Vuart.dir;--make;cmake;--coverage;--trace;--sc;uart.v

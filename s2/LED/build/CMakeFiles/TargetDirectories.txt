@@ -1,3 +1,0 @@
-/Users/koto/build/FromtheTransistor/s2/LED/build/CMakeFiles/VblinkLED_tb.dir
-/Users/koto/build/FromtheTransistor/s2/LED/build/CMakeFiles/edit_cache.dir
-/Users/koto/build/FromtheTransistor/s2/LED/build/CMakeFiles/rebuild_cache.dir
