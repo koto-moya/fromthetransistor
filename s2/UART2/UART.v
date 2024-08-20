@@ -18,7 +18,7 @@ parameter reading_bits = 3'b010; // reading byte
 parameter stop_bit = 3'b100; // stop bit
 
 // for the baud rate
-parameter clks_per_bit = 80;
+parameter clks_per_bit = 40;
 reg [2:0] reciever_state = 3'b000;
 
 always @(posedge clk) begin

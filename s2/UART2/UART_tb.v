@@ -32,7 +32,6 @@ initial begin
     #80 rx <= 0; // 6th bit
     #80 rx <= 1; // 7th bit
     #80 rx <= 1; // stop bit 
-
     #100;
     $display("Final data_bus value: %b", data_bus);
     $finish;
