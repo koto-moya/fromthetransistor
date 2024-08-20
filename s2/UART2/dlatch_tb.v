@@ -39,12 +39,9 @@ endtask
 // do some random testing to see what the output q gives us
 task test_1();
     integer i;
-    integer delay, delay2;
     begin
         for (i=0; i < 5; i = i+1) begin 
-            //delay = $random;
-            //delay2 = $random;
-            #5 en <= ~en;  // do this at some random time later (delay and delay2 respectively)
+            #5 en <= ~en; 
             #1 d <= i;
             // then check the out values
 
