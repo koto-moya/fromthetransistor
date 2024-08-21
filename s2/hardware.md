@@ -4,15 +4,16 @@
 
 Resources: 
 - https://www.chipverify.com/verilog/verilog-data-types
+- https://www.mathsisfun.com/binary-decimal-hexadecimal-converter.html
+- https://www.analog.com/en/resources/analog-dialogue/articles/uart-a-hardware-communication-protocol.html
+- https://www.ti.com/lit/ug/sprugp1/sprugp1.pdf?ts=1723632548377
 
 
 ## Lesson 2.1: How does Verilog work?
 
-
 The hello world example was simple enough.  It looks like the fundamental object of the language is called the module.  Gathering all of the tools for Verilog will prove to be the bulk of the annoying work.  
 
 The main things I have to worry about when desinging hardware in Verilog is the *.v file, *.cc file, the CMake text file, the build directory, using `cmake -GNinja ..` in the build directory, then use `ninja` to complete the build, then run the binary of the test bench `./binary`.  Then we can use gtkwave to view the results.  
-
 
 ## Lesson 2.1.1: Verilog as a HDL
 
