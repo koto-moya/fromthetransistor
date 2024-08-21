@@ -1,6 +1,6 @@
 module UARTtransmitter (
     input [7:0] In_byte,
-    input data_bus_activate,
+    input  data_bus_activate,
     input clk,
     output reg tx
 );
@@ -8,6 +8,7 @@ module UARTtransmitter (
 reg [3:0] byte_index = 4'b0000;
 reg [7:0] clock_count = 8'b00000000;
 reg [9:0] uart_packet = 10'b0000000000;
+reg data_bus_act = 1'b1;
 
 // imutable variables (possible states)
 parameter idle = 3'b000; // listening
@@ -24,7 +25,8 @@ always @(posedge clk) begin
         begin
             clock_count <= 0;
             byte_index <= 0;
-            if (data_bus_activate == 1'b0) begin // active low transmitter
+            data_bus_act <= data_bus_activate;
+            if (data_bus_act == 1'b0) begin // active low transmitter
                 transmitter_state <= building_stream;
             end
             else
@@ -41,6 +43,7 @@ always @(posedge clk) begin
                 if (byte_index == 0) begin
                     uart_packet[byte_index] = 1'b0; //start bit
                     byte_index <= byte_index + 1;
+                    transmitter_state <= building_stream;
                 end
                 else if (byte_index == 9) begin
                     uart_packet[byte_index] = 1'b1; //stop bit
@@ -50,6 +53,7 @@ always @(posedge clk) begin
                 else begin
                     uart_packet[byte_index] = In_byte[byte_index-1];
                     byte_index <= byte_index + 1;
+                    transmitter_state <= building_stream;
                 end
             end
         end
@@ -60,7 +64,7 @@ always @(posedge clk) begin
                 transmitter_state <= sending_stream; 
             end
             else begin
-                clock_count <= 0; // why do you reset the clock count here?    
+                clock_count <= 0;    
                 tx <= uart_packet[byte_index]; 
                 if (byte_index < 9) begin
                     byte_index <= byte_index + 1;
@@ -68,7 +72,7 @@ always @(posedge clk) begin
                 end
                 else begin
                     byte_index <= 3'b000;
-                    data_bus_activate <= 1'b1
+                    data_bus_act <= 1'b1;
                     transmitter_state <= idle;
                 end
             end

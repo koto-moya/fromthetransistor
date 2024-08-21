@@ -37,14 +37,15 @@ initial begin
     // sim the transmission
 
     clk <= 0; // init the clock
-    rx <= 1; // idle receiver
-    data_bus_activate <= 1'b1; // idle transmitter
-    #80 In_byte <= 8'b01010101; // preparing the message. The test bench is acting as the data bus now
+    rx <= 1; // idle receiver // idle transmitter
+    data_bus_activate <= 1'b1;
+    #80 In_byte <= 8'b01100110; // preparing the message. The test bench is acting as the data bus now
     #80 data_bus_activate <= 1'b0;
+    
+
     for (i = 0; i < 10; i = i+1) begin
-        #80 rx <= tx;
+       #220 rx <= tx;
     end
-    #100;
     $display("Final data_bus value: %b", data_bus);
     $finish;
 end
