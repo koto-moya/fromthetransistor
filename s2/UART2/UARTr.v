@@ -1,8 +1,7 @@
-module UART (
+module UARTreceiver (
     input rx,
     input clk,
-    output reg [7:0] data_bus,
-    output reg [7:0] probe
+    output reg [7:0] data_bus
 );
 
 reg [7:0] the_byte = 8'b00000000; 
@@ -28,7 +27,6 @@ always @(posedge clk) begin
             clock_count <= 0;
             byte_index <= 0;
             if (rx == 1'b0) begin
-                probe <= 1;
                 reciever_state <= start_bit;
             end
             else
@@ -36,7 +34,6 @@ always @(posedge clk) begin
         end
     start_bit:
         begin
-            probe <= 0;
             if (clock_count == (clks_per_bit-1)/2) begin
                 if (rx == 1'b0) begin// active low uar
                     clock_count <= 0;
@@ -72,12 +69,12 @@ always @(posedge clk) begin
             end
         end
     stop_bit:
-        if (clock_count < clks_per_bit-1)
-            begin
-                clock_count <= clock_count +1;
-                reciever_state <= stop_bit;
-            end
+        if (clock_count < clks_per_bit-1)begin
+            clock_count <= clock_count +1; 
+            reciever_state <= stop_bit;
+        end
         else begin
+            data_bus <= the_byte;
             clock_count <= 0;
             reciever_state <= idle;
         end
@@ -85,5 +82,4 @@ always @(posedge clk) begin
         reciever_state <= idle;
     endcase
 end
-//assign data_bus = the_byte;
 endmodule
