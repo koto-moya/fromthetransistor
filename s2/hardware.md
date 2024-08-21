@@ -1,7 +1,6 @@
 # Section 2: Bringup: What language is hardware coded in? -- 0.5 weeks                                                                                                            
 - Blinking an LED(Verilog, 10) -- Your first little program! Getting the simulator working. Learning Verilog.
-- Building a UART(Verilog, 100) -- An intro chapter to Verilog, copy a real UART, introducing the concept of MMIO, though the serial port may be semihosting. Serial test echo progra
-m and led control.
+- Building a UART(Verilog, 100) -- An intro chapter to Verilog, copy a real UART, introducing the concept of MMIO, though the serial port may be semihosting. Serial test echo program and led control.
 
 Resources: 
 - https://www.chipverify.com/verilog/verilog-data-types
@@ -59,16 +58,17 @@ The UARt is actually fairly difficult to implement from scratch.  What I had bui
 
 ### Lesson 2.3.1: Verilog learnings
 
-I was listening to a podcast clip of hotz talking about verilog.  He said something that made verilog instantly more understandable.  Verilog actually execute everything at the same time!!! this is why we need states.  On each trigger (posedge in our case) we execute the entire block, having case switching allows us to operate in different modes.  This was huge.  Another aha moment is learning that you don't need all of this c++ code to run your testbench. I'll be honest, just writing the verilog module alone was daunting enough but now I'm ready lol.  I am going to retry an implementation of the UART but this time write the testbench in verilog as well.  THis will greatly reduce the complexity of the task
-
+I was listening to a podcast clip of hotz talking about verilog.  He said something that made verilog instantly more understandable.  Verilog actually executes everything at the same time!!! this is why we need states.  On each trigger (posedge in our case) we execute the entire block, having case switching allows us to operate in different modes.  This was huge.  Another aha moment is learning that you don't need all of this c++ code to run your test bench. I'll be honest, just writing the verilog module alone was daunting enough but now I'm ready lol.  I am going to retry an implementation of the UART but this time write the testbench in verilog as well.  This will reduce the complexity of the task.
 
 ### Lesson 2.3.1.a: Running a sim
 
+Once you have written your module you should write a test bench for it.  THe first thing you want to do is to declare your signals.  `intial` blocks are run at clock = 0 and is usually reserved for setting up the initial conditions of the system.  Once you have defined your inputs and outputs in the test bench you can move on to instantiating the DUT (design under testing).  Then you design your sim.  It's really easy except you have to satisfy the compiler at every turn so thats fun.  
 
-once you have written your module you should write a testbench for it.  THe first thing you want to do is to declare your signals.  `intiial` blocks are run at clock = 0 and is usually reserved for setting up the inital conditions of the system.  Once you have defined your inputs and outputs in the test bench you can move on to instantiating the DUT (design under testing).  
+### Lesson 2.3.2: The Receiver
 
+The receiver was by far the most difficult to get working and took about 8 hours hands to keyboard to get it working. Getting the timing right is no small task and I still don't really understand it.  If you asked me to reproduce it from scratch there is no way in hell I could.  That being said, I do understand the underlying mechanics of the receiver.  At its core, it is a state machine that accepts serial input and builds a byte to be sent out via parallel wires.  It should have an idle state, an init state (start bit), read state (byte), and finally a halt state (stop bit).  During the read state it will build up a byte into a register where it will be accessed by parallel wires to be sent off somewhere else.  
 
+### Lesson 2.3.3: The Transmitter
 
-# TODO:
+The transmitter was straight forward and only took about 5 hours of hands to keyboard time to work out.  Like the receiver, the transmitter is a stateful machine that instead takes parallel data as input and yields serial data as output.  The machine should have an idle state, a build state (build the UART packet), and a send state (sending the serial data).  
 
-- Implement the receiver in the test bench and check to see it's working
